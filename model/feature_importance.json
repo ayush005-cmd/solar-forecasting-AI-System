@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "feature": "Solar Irradiance",
+      "importance": 0.3063
+    },
+    {
+      "feature": "Normalised Irradiance",
+      "importance": 0.3063
+    },
+    {
+      "feature": "Irradiance\u00d7Humidity",
+      "importance": 0.14
+    },
+    {
+      "feature": "Hour of Day",
+      "importance": 0.0886
+    },
+    {
+      "feature": "Month",
+      "importance": 0.0459
+    }
+  ]
+}

@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SolarAI — Solar Power Output Prediction</title>
+  <meta name="description" content="AI-powered solar energy forecasting using SVM, Bagging Ensemble, LDA, and Time-Series Regression." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════
+     NAVIGATION
+══════════════════════════════════════════════ -->
+<nav>
+  <a class="nav-brand" href="#" onclick="navigate('landing'); return false;">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <circle cx="12" cy="12" r="5"/>
+      <line x1="12" y1="1" x2="12" y2="3"/>
+      <line x1="12" y1="21" x2="12" y2="23"/>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+      <line x1="1" y1="12" x2="3" y2="12"/>
+      <line x1="21" y1="12" x2="23" y2="12"/>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+    </svg>
+    SolarAI
+  </a>
+
+  <div class="nav-links">
+    <a href="#" data-section="landing"   onclick="navigate('landing');   return false;">Home</a>
+    <a href="#" data-section="dashboard" onclick="navigate('dashboard'); return false;">Predict</a>
+    <a href="#" data-section="analytics" onclick="navigate('analytics'); return false;">Analytics</a>
+    <a href="#" data-section="models"    onclick="navigate('models');    return false;">Models</a>
+    <a href="#" data-section="clusters"  onclick="navigate('clusters');  return false;">Clusters</a>
+  </div>
+
+  <button class="dark-toggle" id="dark-toggle">◑ Dark</button>
+</nav>
+
+<main>
+
+<!-- ══════════════════════════════════════════════
+     1. LANDING PAGE
+══════════════════════════════════════════════ -->
+<section id="landing">
+  <div class="hero">
+    <div class="solar-orb"></div>
+    <h1>AI-Powered Solar<br/>Energy Forecasting</h1>
+    <p>
+      Predict solar panel output with multi-model machine learning.
+      Combining SVM, Bagging Ensemble, LDA, and Time-Series Regression
+      for industry-grade accuracy.
+    </p>
+    <div class="hero-actions">
+      <button class="btn-primary" onclick="navigate('dashboard')">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        Predict Now
+      </button>
+      <button class="btn-secondary" onclick="navigate('analytics')">View Analytics</button>
+    </div>
+  </div>
+
+  <!-- Feature Cards -->
+  <div class="features-grid">
+    <div class="feature-card">
+      <div class="feature-icon">⚡</div>
+      <h3>SVM Regression</h3>
+      <p>Support Vector Regression with RBF kernel captures non-linear irradiance-to-power relationships with high precision.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🌲</div>
+      <h3>Bagging Ensemble</h3>
+      <p>100-tree Random Forest with bootstrap aggregation reduces prediction variance by up to 40% compared to single models.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">📈</div>
+      <h3>Time-Series Regression</h3>
+      <p>ARIMA-based model captures diurnal solar patterns and temporal autocorrelation across 7-day rolling windows.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🔍</div>
+      <h3>Outlier Handling</h3>
+      <p>IQR-based outlier detection and LDA dimensionality reduction ensures robust predictions even in extreme weather.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🗂</div>
+      <h3>Site Clustering</h3>
+      <p>K-Means with k=4 automatically groups solar sites by irradiance and temperature regime for region-specific tuning.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🎯</div>
+      <h3>95.1% R² Accuracy</h3>
+      <p>The Bagging Ensemble achieves 95.1% R² on the held-out test set with MAE of only 1.93 kW.</p>
+    </div>
+  </div>
+
+  <!-- Algorithm Explanations -->
+  <div class="section-header" style="margin-top:3.5rem">
+    <h2>Algorithm Deep Dive</h2>
+    <p>Why each method was chosen — in plain language</p>
+  </div>
+  <div class="explain-grid">
+    <div class="explain-card">
+      <span class="tag tag-svm">SVM</span>
+      <h3>Why Support Vector Machines?</h3>
+      <p>
+        Solar irradiance and power output have a complex, non-linear relationship affected by temperature, humidity,
+        and cloud cover simultaneously. SVM with an RBF kernel maps inputs into a high-dimensional space where
+        a linear separator (the "hyperplane") captures these non-linearities. The margin-maximization objective
+        also makes SVMs naturally robust to noisy sensor readings and outlier days.
+      </p>
+    </div>
+    <div class="explain-card">
+      <span class="tag tag-bag">Bagging</span>
+      <h3>Why Bagging Ensemble?</h3>
+      <p>
+        Individual decision trees over-fit to training data. Bagging trains 100 trees on different random
+        bootstrap samples of the dataset, then averages their predictions. This dramatically reduces variance
+        — the primary source of error in solar forecasting — while keeping bias low. The result is a stable
+        model that generalises well to unseen weather conditions.
+      </p>
+    </div>
+    <div class="explain-card">
+      <span class="tag tag-lda">LDA</span>
+      <h3>Why Linear Discriminant Analysis?</h3>
+      <p>
+        Raw sensor data contains 10+ correlated features (temperature, humidity, pressure, irradiance, UV index, etc.).
+        LDA projects them onto a lower-dimensional space that maximises class separability — distinguishing
+        high-output days from low-output days. This reduces noise, removes redundant features, and speeds
+        up downstream model training without losing predictive information.
+      </p>
+    </div>
+    <div class="explain-card">
+      <span class="tag tag-clust">Clustering</span>
+      <h3>Why Site Clustering?</h3>
+      <p>
+        India has dramatically different solar regimes: arid Rajasthan receives 850+ W/m² irradiance while
+        coastal Kerala averages 350 W/m². Training a single global model ignores this geography. K-Means
+        clustering (k=4) automatically discovers these site groups, allowing cluster-specific model
+        calibration and more accurate region-level forecasting.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     2. PREDICTION DASHBOARD
+══════════════════════════════════════════════ -->
+<section id="dashboard">
+  <div class="section-header">
+    <h2>Prediction Dashboard</h2>
+    <p>Enter current environmental conditions to forecast solar output</p>
+  </div>
+
+  <!-- KPI summary row -->
+  <div class="kpi-grid">
+    <div class="kpi-card">
+      <div class="kpi-label">Total Predictions</div>
+      <div class="kpi-value" id="kpi-predictions">—</div>
+      <div class="kpi-sub">All time</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Avg Daily Output</div>
+      <div class="kpi-value" id="kpi-output">—</div>
+      <div class="kpi-sub">kW average</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Best Model R²</div>
+      <div class="kpi-value" id="kpi-accuracy">—</div>
+      <div class="kpi-sub">Bagging Ensemble</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Sites Monitored</div>
+      <div class="kpi-value" id="kpi-sites">—</div>
+      <div class="kpi-sub">Across India</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Peak Power</div>
+      <div class="kpi-value" id="kpi-peak">—</div>
+      <div class="kpi-sub">kW recorded</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Avg Confidence</div>
+      <div class="kpi-value" id="kpi-confidence">—</div>
+      <div class="kpi-sub">Model certainty</div>
+    </div>
+  </div>
+
+  <div class="dashboard-grid">
+    <!-- Input Form -->
+    <div class="card">
+      <div class="card-title">Environmental Inputs</div>
+      <form id="predict-form" method="POST" action="/predict">
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="temperature">Temperature</label>
+            <input type="number" id="temperature" name="temperature" value="28" step="0.1" min="-10" max="55" required />
+            <span class="hint">°C  (range: −10 to 55)</span>
+          </div>
+          <div class="form-group">
+            <label for="irradiance">Irradiance</label>
+            <input type="number" id="irradiance" name="irradiance" value="650" step="1" min="0" max="1200" required />
+            <span class="hint">W/m²  (range: 0 to 1200)</span>
+          </div>
+          <div class="form-group">
+            <label for="humidity">Humidity</label>
+            <input type="number" id="humidity" name="humidity" value="60" step="1" min="0" max="100" required />
+            <span class="hint">%  (range: 0 to 100)</span>
+          </div>
+          <div class="form-group">
+            <label for="wind-speed">Wind Speed</label>
+            <input type="number" id="wind-speed" name="windSpeed" value="3.5" step="0.1" min="0" max="40" required />
+            <span class="hint">m/s  (range: 0 to 40)</span>
+          </div>
+          <div class="form-group">
+            <label for="hour">Hour of Day</label>
+            <input type="number" id="hour" name="hour" value="12" step="1" min="0" max="23" required />
+            <span class="hint">0 – 23 (24-hour clock)</span>
+          </div>
+        </div>
+        <button type="submit" class="btn-predict" id="predict-btn">
+          <div class="spinner" id="spinner"></div>
+          <span id="btn-text">Predict Output</span>
+        </button>
+      </form>
+    </div>
+
+    <!-- Output -->
+    <div>
+      <div class="card output-card" id="output-card">
+        <div class="card-title">Prediction Results</div>
+
+        <div style="text-align:center; padding: 1rem 0 0.5rem;">
+          <div style="font-size:0.8rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:.5rem;">Ensemble Forecast</div>
+          <div class="ensemble-value" id="val-ensemble">—</div>
+          <div class="ensemble-unit">kW predicted output</div>
+        </div>
+
+        <div class="model-breakdown">
+          <div class="model-value-card">
+            <div class="label">SVM</div>
+            <div class="value val-svm" id="val-svm">—</div>
+            <div style="font-size:.72rem;color:var(--text-muted)">kW</div>
+          </div>
+          <div class="model-value-card">
+            <div class="label">Bagging</div>
+            <div class="value val-bag" id="val-bag">—</div>
+            <div style="font-size:.72rem;color:var(--text-muted)">kW</div>
+          </div>
+          <div class="model-value-card">
+            <div class="label">Time-Series</div>
+            <div class="value val-ts" id="val-ts">—</div>
+            <div style="font-size:.72rem;color:var(--text-muted)">kW</div>
+          </div>
+        </div>
+
+        <div class="confidence-bar-wrap">
+          <div class="confidence-label">
+            <span>Model Confidence</span>
+            <span id="conf-pct">—</span>
+          </div>
+          <div class="confidence-bar">
+            <div class="confidence-fill" id="conf-fill" style="width:0%"></div>
+          </div>
+        </div>
+
+        <div id="outlier-badge"></div>
+      </div>
+
+      <!-- Placeholder before prediction -->
+      <div class="card" id="placeholder-card" style="text-align:center;padding:3rem 1rem;color:var(--text-muted);">
+        <div style="font-size:2.5rem;margin-bottom:1rem;opacity:.4;">☀</div>
+        <div style="font-size:.9rem;">Enter values on the left and press <strong style="color:var(--gold)">Predict Output</strong> to see results.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     3. ANALYTICS
+══════════════════════════════════════════════ -->
+<section id="analytics">
+  <div class="section-header">
+    <h2>Analytics</h2>
+    <p>7-day actual vs predicted time-series and feature importance</p>
+  </div>
+
+  <div class="card" style="margin-bottom:1.5rem;">
+    <div class="card-title">Actual vs Predicted — Last 48 Hours</div>
+    <div class="chart-container" style="height:320px;">
+      <canvas id="ts-chart"></canvas>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">Feature Importance (Bagging Ensemble)</div>
+    <div class="chart-container" style="height:240px;">
+      <canvas id="fi-chart"></canvas>
+    </div>
+  </div>
+
+  <!-- Outlier Handling Visualisation -->
+  <div class="card" style="margin-top:1.5rem;">
+    <div class="card-title">Outlier Handling — IQR Removal Stats</div>
+    <p style="color:var(--text-dim);font-size:.875rem;margin-bottom:1.25rem;">
+      Before training, outliers were removed using the IQR (Interquartile Range) method.
+      Any value outside <strong>Q1 − 1.5×IQR</strong> or <strong>Q3 + 1.5×IQR</strong> was
+      flagged and discarded, ensuring clean, robust model training.
+    </p>
+    <div id="outlier-stats-grid" class="outlier-stats-grid">
+      <div style="color:var(--text-muted);padding:1rem">Loading outlier statistics…</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     4. MODEL COMPARISON
+══════════════════════════════════════════════ -->
+<section id="models">
+  <div class="section-header">
+    <h2>Model Comparison</h2>
+    <p>Performance metrics across all trained models on the held-out test set</p>
+  </div>
+
+  <div class="card">
+    <table class="model-table">
+      <thead>
+        <tr>
+          <th style="width:40%">Model</th>
+          <th>MAE (kW) ↓</th>
+          <th>RMSE (kW) ↓</th>
+          <th>R² ↑</th>
+        </tr>
+      </thead>
+      <tbody id="model-tbody">
+        <tr><td colspan="4" style="color:var(--text-muted);padding:2rem;text-align:center;">Loading…</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="explain-grid" style="margin-top:1.5rem;">
+    <div class="explain-card">
+      <span class="tag tag-svm">MAE</span>
+      <h3>Mean Absolute Error</h3>
+      <p>Average absolute difference between predicted and actual output in kW. Lower is better. Easy to interpret — a MAE of 1.93 means predictions are off by 1.93 kW on average.</p>
+    </div>
+    <div class="explain-card">
+      <span class="tag tag-bag">RMSE</span>
+      <h3>Root Mean Square Error</h3>
+      <p>Penalises large errors more than MAE by squaring them before averaging. Good for catching occasional large prediction failures. Lower is better.</p>
+    </div>
+    <div class="explain-card">
+      <span class="tag tag-lda">R²</span>
+      <h3>Coefficient of Determination</h3>
+      <p>Proportion of variance in actual output explained by the model. Ranges 0–1. R²=0.951 means the model explains 95.1% of variability in solar output. Higher is better.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     5. CLUSTERING
+══════════════════════════════════════════════ -->
+<section id="clusters">
+  <div class="section-header">
+    <h2>Site Cluster Discovery</h2>
+    <p>K-Means clustering (k=4) of solar sites by irradiance and temperature regime</p>
+  </div>
+
+  <div class="card">
+    <div class="card-title">K-Means Scatter Plot — Irradiance vs Temperature</div>
+    <div class="chart-container" style="height:420px;">
+      <canvas id="cluster-chart"></canvas>
+    </div>
+    <div class="cluster-legend" id="cluster-legend"></div>
+  </div>
+
+  <div class="explain-grid" style="margin-top:1.5rem;">
+    <div class="explain-card">
+      <span class="tag tag-clust">Cluster 0</span>
+      <h3>High Irradiance — Arid</h3>
+      <p>Rajasthan, Jodhpur, Jaisalmer. Very high solar irradiance (850+ W/m²), high temperature (38°C+). Best sites for large-scale solar farms. Avg output ~48 kW.</p>
+    </div>
+    <div class="explain-card">
+      <span class="tag tag-svm">Cluster 1</span>
+      <h3>Moderate — Temperate</h3>
+      <p>Punjab, Haryana, Gujarat. Balanced irradiance (~580 W/m²) and mild temperature (~22°C). Consistent year-round production. Avg output ~30 kW.</p>
+    </div>
+    <div class="explain-card">
+      <span class="tag tag-bag">Cluster 2</span>
+      <h3>Low — Coastal / Humid</h3>
+      <p>Kerala, Tamil Nadu coast. Lower irradiance (~350 W/m²) due to cloud cover and humidity. Suitable for rooftop solar. Avg output ~15 kW.</p>
+    </div>
+    <div class="explain-card">
+      <span class="tag tag-lda">Cluster 3</span>
+      <h3>Variable — Monsoon</h3>
+      <p>Andhra Pradesh, Odisha. Medium irradiance (~470 W/m²) with high seasonal variability. Models trained here need strong temporal features.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- Toast container -->
+<div id="toast-container"></div>
+
+<!-- placeholder hiding handled by script.js -->
+<script src="/static/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1180 @@
+{
+  "points": [
+    {
+      "timestamp": "2024-01-01T00:00:00Z",
+      "actual": 22.51,
+      "svmPredicted": 23.83,
+      "baggingPredicted": 23.33,
+      "timeSeriesPredicted": 24.03
+    },
+    {
+      "timestamp": "2024-01-01T01:00:00Z",
+      "actual": 23.67,
+      "svmPredicted": 23.59,
+      "baggingPredicted": 23.99,
+      "timeSeriesPredicted": 23.39
+    },
+    {
+      "timestamp": "2024-01-01T02:00:00Z",
+      "actual": 0.44,
+      "svmPredicted": 0.55,
+      "baggingPredicted": 0.31,
+      "timeSeriesPredicted": 0.37
+    },
+    {
+      "timestamp": "2024-01-01T03:00:00Z",
+      "actual": 12.83,
+      "svmPredicted": 12.31,
+      "baggingPredicted": 12.12,
+      "timeSeriesPredicted": 12.33
+    },
+    {
+      "timestamp": "2024-01-01T04:00:00Z",
+      "actual": 20.19,
+      "svmPredicted": 20.4,
+      "baggingPredicted": 21.61,
+      "timeSeriesPredicted": 19.74
+    },
+    {
+      "timestamp": "2024-01-01T05:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.51,
+      "baggingPredicted": 0.33,
+      "timeSeriesPredicted": 0.5
+    },
+    {
+      "timestamp": "2024-01-01T06:00:00Z",
+      "actual": 29.27,
+      "svmPredicted": 29.19,
+      "baggingPredicted": 29.59,
+      "timeSeriesPredicted": 28.4
+    },
+    {
+      "timestamp": "2024-01-01T07:00:00Z",
+      "actual": 10.48,
+      "svmPredicted": 9.41,
+      "baggingPredicted": 9.34,
+      "timeSeriesPredicted": 9.49
+    },
+    {
+      "timestamp": "2024-01-01T08:00:00Z",
+      "actual": 1.96,
+      "svmPredicted": 0.57,
+      "baggingPredicted": 0.62,
+      "timeSeriesPredicted": 0.68
+    },
+    {
+      "timestamp": "2024-01-01T09:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.5,
+      "baggingPredicted": 0.44,
+      "timeSeriesPredicted": 0.33
+    },
+    {
+      "timestamp": "2024-01-01T10:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.86,
+      "baggingPredicted": 0.92,
+      "timeSeriesPredicted": 1.2
+    },
+    {
+      "timestamp": "2024-01-01T11:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.62,
+      "baggingPredicted": 0.56,
+      "timeSeriesPredicted": 0.67
+    },
+    {
+      "timestamp": "2024-01-01T12:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.44,
+      "baggingPredicted": 0.39,
+      "timeSeriesPredicted": 0.0
+    },
+    {
+      "timestamp": "2024-01-01T13:00:00Z",
+      "actual": 23.39,
+      "svmPredicted": 24.64,
+      "baggingPredicted": 24.79,
+      "timeSeriesPredicted": 24.74
+    },
+    {
+      "timestamp": "2024-01-01T14:00:00Z",
+      "actual": 3.83,
+      "svmPredicted": 2.45,
+      "baggingPredicted": 2.68,
+      "timeSeriesPredicted": 2.49
+    },
+    {
+      "timestamp": "2024-01-01T15:00:00Z",
+      "actual": 2.47,
+      "svmPredicted": 1.2,
+      "baggingPredicted": 1.21,
+      "timeSeriesPredicted": 1.65
+    },
+    {
+      "timestamp": "2024-01-01T16:00:00Z",
+      "actual": 0.19,
+      "svmPredicted": 0.47,
+      "baggingPredicted": 0.36,
+      "timeSeriesPredicted": 0.21
+    },
+    {
+      "timestamp": "2024-01-01T17:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.43,
+      "baggingPredicted": 0.3,
+      "timeSeriesPredicted": 0.11
+    },
+    {
+      "timestamp": "2024-01-01T18:00:00Z",
+      "actual": 9.33,
+      "svmPredicted": 8.76,
+      "baggingPredicted": 8.48,
+      "timeSeriesPredicted": 8.82
+    },
+    {
+      "timestamp": "2024-01-01T19:00:00Z",
+      "actual": 13.74,
+      "svmPredicted": 14.16,
+      "baggingPredicted": 13.67,
+      "timeSeriesPredicted": 14.09
+    },
+    {
+      "timestamp": "2024-01-01T20:00:00Z",
+      "actual": 12.77,
+      "svmPredicted": 12.54,
+      "baggingPredicted": 12.74,
+      "timeSeriesPredicted": 12.57
+    },
+    {
+      "timestamp": "2024-01-01T21:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.48,
+      "baggingPredicted": 0.65,
+      "timeSeriesPredicted": 0.14
+    },
+    {
+      "timestamp": "2024-01-01T22:00:00Z",
+      "actual": 15.91,
+      "svmPredicted": 13.7,
+      "baggingPredicted": 13.94,
+      "timeSeriesPredicted": 13.7
+    },
+    {
+      "timestamp": "2024-01-01T23:00:00Z",
+      "actual": 7.15,
+      "svmPredicted": 8.23,
+      "baggingPredicted": 7.76,
+      "timeSeriesPredicted": 8.17
+    },
+    {
+      "timestamp": "2024-01-02T00:00:00Z",
+      "actual": 20.36,
+      "svmPredicted": 20.16,
+      "baggingPredicted": 20.37,
+      "timeSeriesPredicted": 20.03
+    },
+    {
+      "timestamp": "2024-01-02T01:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.43,
+      "baggingPredicted": 0.45,
+      "timeSeriesPredicted": 0.0
+    },
+    {
+      "timestamp": "2024-01-02T02:00:00Z",
+      "actual": 3.03,
+      "svmPredicted": 2.06,
+      "baggingPredicted": 2.05,
+      "timeSeriesPredicted": 2.53
+    },
+    {
+      "timestamp": "2024-01-02T03:00:00Z",
+      "actual": 2.36,
+      "svmPredicted": 1.71,
+      "baggingPredicted": 2.06,
+      "timeSeriesPredicted": 2.16
+    },
+    {
+      "timestamp": "2024-01-02T04:00:00Z",
+      "actual": 14.45,
+      "svmPredicted": 15.16,
+      "baggingPredicted": 15.62,
+      "timeSeriesPredicted": 14.91
+    },
+    {
+      "timestamp": "2024-01-02T05:00:00Z",
+      "actual": 14.61,
+      "svmPredicted": 15.88,
+      "baggingPredicted": 16.04,
+      "timeSeriesPredicted": 15.9
+    },
+    {
+      "timestamp": "2024-01-02T06:00:00Z",
+      "actual": 22.35,
+      "svmPredicted": 23.06,
+      "baggingPredicted": 23.25,
+      "timeSeriesPredicted": 23.11
+    },
+    {
+      "timestamp": "2024-01-02T07:00:00Z",
+      "actual": 0.05,
+      "svmPredicted": 0.48,
+      "baggingPredicted": 0.36,
+      "timeSeriesPredicted": 0.14
+    },
+    {
+      "timestamp": "2024-01-02T08:00:00Z",
+      "actual": 1.3,
+      "svmPredicted": 0.44,
+      "baggingPredicted": 0.31,
+      "timeSeriesPredicted": 0.21
+    },
+    {
+      "timestamp": "2024-01-02T09:00:00Z",
+      "actual": 23.34,
+      "svmPredicted": 23.25,
+      "baggingPredicted": 23.41,
+      "timeSeriesPredicted": 23.1
+    },
+    {
+      "timestamp": "2024-01-02T10:00:00Z",
+      "actual": 0.61,
+      "svmPredicted": 0.48,
+      "baggingPredicted": 0.33,
+      "timeSeriesPredicted": 0.35
+    },
+    {
+      "timestamp": "2024-01-02T11:00:00Z",
+      "actual": 0.08,
+      "svmPredicted": 0.57,
+      "baggingPredicted": 0.5,
+      "timeSeriesPredicted": 0.33
+    },
+    {
+      "timestamp": "2024-01-02T12:00:00Z",
+      "actual": 2.11,
+      "svmPredicted": 0.51,
+      "baggingPredicted": 0.53,
+      "timeSeriesPredicted": 0.47
+    },
+    {
+      "timestamp": "2024-01-02T13:00:00Z",
+      "actual": 21.82,
+      "svmPredicted": 21.75,
+      "baggingPredicted": 21.66,
+      "timeSeriesPredicted": 22.06
+    },
+    {
+      "timestamp": "2024-01-02T14:00:00Z",
+      "actual": 0.75,
+      "svmPredicted": 0.5,
+      "baggingPredicted": 0.38,
+      "timeSeriesPredicted": 0.41
+    },
+    {
+      "timestamp": "2024-01-02T15:00:00Z",
+      "actual": 6.09,
+      "svmPredicted": 4.96,
+      "baggingPredicted": 5.16,
+      "timeSeriesPredicted": 4.97
+    },
+    {
+      "timestamp": "2024-01-02T16:00:00Z",
+      "actual": 30.59,
+      "svmPredicted": 30.76,
+      "baggingPredicted": 29.58,
+      "timeSeriesPredicted": 31.91
+    },
+    {
+      "timestamp": "2024-01-02T17:00:00Z",
+      "actual": 12.01,
+      "svmPredicted": 11.9,
+      "baggingPredicted": 11.98,
+      "timeSeriesPredicted": 11.93
+    },
+    {
+      "timestamp": "2024-01-02T18:00:00Z",
+      "actual": 9.61,
+      "svmPredicted": 9.91,
+      "baggingPredicted": 9.86,
+      "timeSeriesPredicted": 9.89
+    },
+    {
+      "timestamp": "2024-01-02T19:00:00Z",
+      "actual": 1.43,
+      "svmPredicted": 1.77,
+      "baggingPredicted": 4.12,
+      "timeSeriesPredicted": 2.11
+    },
+    {
+      "timestamp": "2024-01-02T20:00:00Z",
+      "actual": 1.17,
+      "svmPredicted": 0.56,
+      "baggingPredicted": 0.42,
+      "timeSeriesPredicted": 0.66
+    },
+    {
+      "timestamp": "2024-01-02T21:00:00Z",
+      "actual": 2.64,
+      "svmPredicted": 1.36,
+      "baggingPredicted": 1.3,
+      "timeSeriesPredicted": 1.59
+    },
+    {
+      "timestamp": "2024-01-02T22:00:00Z",
+      "actual": 1.38,
+      "svmPredicted": 0.77,
+      "baggingPredicted": 0.86,
+      "timeSeriesPredicted": 1.07
+    },
+    {
+      "timestamp": "2024-01-02T23:00:00Z",
+      "actual": 14.04,
+      "svmPredicted": 13.35,
+      "baggingPredicted": 13.45,
+      "timeSeriesPredicted": 13.35
+    },
+    {
+      "timestamp": "2024-01-03T00:00:00Z",
+      "actual": 7.3,
+      "svmPredicted": 7.39,
+      "baggingPredicted": 7.38,
+      "timeSeriesPredicted": 7.3
+    },
+    {
+      "timestamp": "2024-01-03T01:00:00Z",
+      "actual": 15.64,
+      "svmPredicted": 14.79,
+      "baggingPredicted": 14.68,
+      "timeSeriesPredicted": 14.82
+    },
+    {
+      "timestamp": "2024-01-03T02:00:00Z",
+      "actual": 12.76,
+      "svmPredicted": 12.69,
+      "baggingPredicted": 13.07,
+      "timeSeriesPredicted": 12.71
+    },
+    {
+      "timestamp": "2024-01-03T03:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.89,
+      "baggingPredicted": 0.99,
+      "timeSeriesPredicted": 1.24
+    },
+    {
+      "timestamp": "2024-01-03T04:00:00Z",
+      "actual": 6.38,
+      "svmPredicted": 5.11,
+      "baggingPredicted": 5.25,
+      "timeSeriesPredicted": 5.07
+    },
+    {
+      "timestamp": "2024-01-03T05:00:00Z",
+      "actual": 1.88,
+      "svmPredicted": 1.9,
+      "baggingPredicted": 2.34,
+      "timeSeriesPredicted": 2.28
+    },
+    {
+      "timestamp": "2024-01-03T06:00:00Z",
+      "actual": 1.6,
+      "svmPredicted": 0.93,
+      "baggingPredicted": 0.72,
+      "timeSeriesPredicted": 0.98
+    },
+    {
+      "timestamp": "2024-01-03T07:00:00Z",
+      "actual": 22.45,
+      "svmPredicted": 22.13,
+      "baggingPredicted": 21.9,
+      "timeSeriesPredicted": 22.09
+    },
+    {
+      "timestamp": "2024-01-03T08:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.5,
+      "baggingPredicted": 0.51,
+      "timeSeriesPredicted": 0.45
+    },
+    {
+      "timestamp": "2024-01-03T09:00:00Z",
+      "actual": 0.82,
+      "svmPredicted": 1.03,
+      "baggingPredicted": 1.31,
+      "timeSeriesPredicted": 1.35
+    },
+    {
+      "timestamp": "2024-01-03T10:00:00Z",
+      "actual": 0.39,
+      "svmPredicted": 1.5,
+      "baggingPredicted": 1.71,
+      "timeSeriesPredicted": 1.84
+    },
+    {
+      "timestamp": "2024-01-03T11:00:00Z",
+      "actual": 24.79,
+      "svmPredicted": 23.96,
+      "baggingPredicted": 24.56,
+      "timeSeriesPredicted": 23.01
+    },
+    {
+      "timestamp": "2024-01-03T12:00:00Z",
+      "actual": 13.4,
+      "svmPredicted": 13.82,
+      "baggingPredicted": 13.98,
+      "timeSeriesPredicted": 13.86
+    },
+    {
+      "timestamp": "2024-01-03T13:00:00Z",
+      "actual": 25.47,
+      "svmPredicted": 24.84,
+      "baggingPredicted": 24.27,
+      "timeSeriesPredicted": 25.05
+    },
+    {
+      "timestamp": "2024-01-03T14:00:00Z",
+      "actual": 24.05,
+      "svmPredicted": 23.88,
+      "baggingPredicted": 24.08,
+      "timeSeriesPredicted": 23.75
+    },
+    {
+      "timestamp": "2024-01-03T15:00:00Z",
+      "actual": 11.37,
+      "svmPredicted": 12.22,
+      "baggingPredicted": 12.76,
+      "timeSeriesPredicted": 12.19
+    },
+    {
+      "timestamp": "2024-01-03T16:00:00Z",
+      "actual": 0.54,
+      "svmPredicted": 0.51,
+      "baggingPredicted": 0.47,
+      "timeSeriesPredicted": 0.36
+    },
+    {
+      "timestamp": "2024-01-03T17:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.68,
+      "baggingPredicted": 0.59,
+      "timeSeriesPredicted": 0.52
+    },
+    {
+      "timestamp": "2024-01-03T18:00:00Z",
+      "actual": 1.23,
+      "svmPredicted": 1.38,
+      "baggingPredicted": 1.35,
+      "timeSeriesPredicted": 1.83
+    },
+    {
+      "timestamp": "2024-01-03T19:00:00Z",
+      "actual": 15.21,
+      "svmPredicted": 16.53,
+      "baggingPredicted": 18.25,
+      "timeSeriesPredicted": 15.89
+    },
+    {
+      "timestamp": "2024-01-03T20:00:00Z",
+      "actual": 0.39,
+      "svmPredicted": 0.51,
+      "baggingPredicted": 0.64,
+      "timeSeriesPredicted": 0.23
+    },
+    {
+      "timestamp": "2024-01-03T21:00:00Z",
+      "actual": 17.07,
+      "svmPredicted": 16.58,
+      "baggingPredicted": 16.45,
+      "timeSeriesPredicted": 17.16
+    },
+    {
+      "timestamp": "2024-01-03T22:00:00Z",
+      "actual": 3.48,
+      "svmPredicted": 2.94,
+      "baggingPredicted": 2.62,
+      "timeSeriesPredicted": 3.29
+    },
+    {
+      "timestamp": "2024-01-03T23:00:00Z",
+      "actual": 12.42,
+      "svmPredicted": 13.63,
+      "baggingPredicted": 13.63,
+      "timeSeriesPredicted": 13.6
+    },
+    {
+      "timestamp": "2024-01-04T00:00:00Z",
+      "actual": 1.08,
+      "svmPredicted": 0.43,
+      "baggingPredicted": 0.3,
+      "timeSeriesPredicted": 0.07
+    },
+    {
+      "timestamp": "2024-01-04T01:00:00Z",
+      "actual": 1.17,
+      "svmPredicted": 0.49,
+      "baggingPredicted": 0.32,
+      "timeSeriesPredicted": 0.17
+    },
+    {
+      "timestamp": "2024-01-04T02:00:00Z",
+      "actual": 10.96,
+      "svmPredicted": 10.82,
+      "baggingPredicted": 10.61,
+      "timeSeriesPredicted": 10.91
+    },
+    {
+      "timestamp": "2024-01-04T03:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.44,
+      "baggingPredicted": 0.54,
+      "timeSeriesPredicted": 0.0
+    },
+    {
+      "timestamp": "2024-01-04T04:00:00Z",
+      "actual": 0.67,
+      "svmPredicted": 0.89,
+      "baggingPredicted": 0.95,
+      "timeSeriesPredicted": 1.21
+    },
+    {
+      "timestamp": "2024-01-04T05:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.48,
+      "baggingPredicted": 0.28,
+      "timeSeriesPredicted": 0.3
+    },
+    {
+      "timestamp": "2024-01-04T06:00:00Z",
+      "actual": 6.61,
+      "svmPredicted": 7.34,
+      "baggingPredicted": 7.01,
+      "timeSeriesPredicted": 7.31
+    },
+    {
+      "timestamp": "2024-01-04T07:00:00Z",
+      "actual": 9.36,
+      "svmPredicted": 8.63,
+      "baggingPredicted": 8.63,
+      "timeSeriesPredicted": 8.68
+    },
+    {
+      "timestamp": "2024-01-04T08:00:00Z",
+      "actual": 12.34,
+      "svmPredicted": 11.17,
+      "baggingPredicted": 10.99,
+      "timeSeriesPredicted": 11.22
+    },
+    {
+      "timestamp": "2024-01-04T09:00:00Z",
+      "actual": 1.37,
+      "svmPredicted": 0.42,
+      "baggingPredicted": 0.33,
+      "timeSeriesPredicted": 0.0
+    },
+    {
+      "timestamp": "2024-01-04T10:00:00Z",
+      "actual": 26.83,
+      "svmPredicted": 27.8,
+      "baggingPredicted": 27.7,
+      "timeSeriesPredicted": 27.17
+    },
+    {
+      "timestamp": "2024-01-04T11:00:00Z",
+      "actual": 1.1,
+      "svmPredicted": 0.46,
+      "baggingPredicted": 0.31,
+      "timeSeriesPredicted": 0.02
+    },
+    {
+      "timestamp": "2024-01-04T12:00:00Z",
+      "actual": 14.63,
+      "svmPredicted": 13.64,
+      "baggingPredicted": 13.75,
+      "timeSeriesPredicted": 13.64
+    },
+    {
+      "timestamp": "2024-01-04T13:00:00Z",
+      "actual": 8.46,
+      "svmPredicted": 8.92,
+      "baggingPredicted": 8.42,
+      "timeSeriesPredicted": 8.93
+    },
+    {
+      "timestamp": "2024-01-04T14:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.44,
+      "baggingPredicted": 0.32,
+      "timeSeriesPredicted": 0.0
+    },
+    {
+      "timestamp": "2024-01-04T15:00:00Z",
+      "actual": 12.44,
+      "svmPredicted": 11.43,
+      "baggingPredicted": 11.56,
+      "timeSeriesPredicted": 11.48
+    },
+    {
+      "timestamp": "2024-01-04T16:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.59,
+      "baggingPredicted": 0.5,
+      "timeSeriesPredicted": 0.67
+    },
+    {
+      "timestamp": "2024-01-04T17:00:00Z",
+      "actual": 0.69,
+      "svmPredicted": 1.05,
+      "baggingPredicted": 1.08,
+      "timeSeriesPredicted": 1.39
+    },
+    {
+      "timestamp": "2024-01-04T18:00:00Z",
+      "actual": 2.52,
+      "svmPredicted": 1.72,
+      "baggingPredicted": 3.63,
+      "timeSeriesPredicted": 2.04
+    },
+    {
+      "timestamp": "2024-01-04T19:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.46,
+      "baggingPredicted": 0.36,
+      "timeSeriesPredicted": 0.12
+    },
+    {
+      "timestamp": "2024-01-04T20:00:00Z",
+      "actual": 18.65,
+      "svmPredicted": 19.06,
+      "baggingPredicted": 19.38,
+      "timeSeriesPredicted": 18.89
+    },
+    {
+      "timestamp": "2024-01-04T21:00:00Z",
+      "actual": 8.99,
+      "svmPredicted": 10.46,
+      "baggingPredicted": 10.78,
+      "timeSeriesPredicted": 10.52
+    },
+    {
+      "timestamp": "2024-01-04T22:00:00Z",
+      "actual": 0.38,
+      "svmPredicted": 0.97,
+      "baggingPredicted": 0.92,
+      "timeSeriesPredicted": 1.04
+    },
+    {
+      "timestamp": "2024-01-04T23:00:00Z",
+      "actual": 30.05,
+      "svmPredicted": 31.28,
+      "baggingPredicted": 29.9,
+      "timeSeriesPredicted": 30.98
+    },
+    {
+      "timestamp": "2024-01-05T00:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.48,
+      "baggingPredicted": 0.54,
+      "timeSeriesPredicted": 0.15
+    },
+    {
+      "timestamp": "2024-01-05T01:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.5,
+      "baggingPredicted": 0.4,
+      "timeSeriesPredicted": 0.4
+    },
+    {
+      "timestamp": "2024-01-05T02:00:00Z",
+      "actual": 5.34,
+      "svmPredicted": 7.01,
+      "baggingPredicted": 6.85,
+      "timeSeriesPredicted": 6.92
+    },
+    {
+      "timestamp": "2024-01-05T03:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.48,
+      "baggingPredicted": 0.5,
+      "timeSeriesPredicted": 0.14
+    },
+    {
+      "timestamp": "2024-01-05T04:00:00Z",
+      "actual": 12.63,
+      "svmPredicted": 11.32,
+      "baggingPredicted": 11.09,
+      "timeSeriesPredicted": 11.33
+    },
+    {
+      "timestamp": "2024-01-05T05:00:00Z",
+      "actual": 0.24,
+      "svmPredicted": 0.47,
+      "baggingPredicted": 0.51,
+      "timeSeriesPredicted": 0.11
+    },
+    {
+      "timestamp": "2024-01-05T06:00:00Z",
+      "actual": 0.84,
+      "svmPredicted": 1.17,
+      "baggingPredicted": 1.32,
+      "timeSeriesPredicted": 1.32
+    },
+    {
+      "timestamp": "2024-01-05T07:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.46,
+      "baggingPredicted": 0.34,
+      "timeSeriesPredicted": 0.28
+    },
+    {
+      "timestamp": "2024-01-05T08:00:00Z",
+      "actual": 9.34,
+      "svmPredicted": 8.47,
+      "baggingPredicted": 8.58,
+      "timeSeriesPredicted": 8.52
+    },
+    {
+      "timestamp": "2024-01-05T09:00:00Z",
+      "actual": 24.54,
+      "svmPredicted": 24.21,
+      "baggingPredicted": 24.2,
+      "timeSeriesPredicted": 24.31
+    },
+    {
+      "timestamp": "2024-01-05T10:00:00Z",
+      "actual": 27.32,
+      "svmPredicted": 28.33,
+      "baggingPredicted": 27.99,
+      "timeSeriesPredicted": 27.79
+    },
+    {
+      "timestamp": "2024-01-05T11:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.47,
+      "baggingPredicted": 0.32,
+      "timeSeriesPredicted": 0.37
+    },
+    {
+      "timestamp": "2024-01-05T12:00:00Z",
+      "actual": 21.16,
+      "svmPredicted": 22.16,
+      "baggingPredicted": 21.77,
+      "timeSeriesPredicted": 22.1
+    },
+    {
+      "timestamp": "2024-01-05T13:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.55,
+      "baggingPredicted": 0.4,
+      "timeSeriesPredicted": 0.53
+    },
+    {
+      "timestamp": "2024-01-05T14:00:00Z",
+      "actual": 13.31,
+      "svmPredicted": 12.61,
+      "baggingPredicted": 12.78,
+      "timeSeriesPredicted": 12.63
+    },
+    {
+      "timestamp": "2024-01-05T15:00:00Z",
+      "actual": 5.18,
+      "svmPredicted": 4.71,
+      "baggingPredicted": 5.36,
+      "timeSeriesPredicted": 4.75
+    },
+    {
+      "timestamp": "2024-01-05T16:00:00Z",
+      "actual": 4.85,
+      "svmPredicted": 4.07,
+      "baggingPredicted": 3.8,
+      "timeSeriesPredicted": 4.04
+    },
+    {
+      "timestamp": "2024-01-05T17:00:00Z",
+      "actual": 1.27,
+      "svmPredicted": 1.0,
+      "baggingPredicted": 0.87,
+      "timeSeriesPredicted": 1.11
+    },
+    {
+      "timestamp": "2024-01-05T18:00:00Z",
+      "actual": 9.19,
+      "svmPredicted": 10.65,
+      "baggingPredicted": 10.74,
+      "timeSeriesPredicted": 10.69
+    },
+    {
+      "timestamp": "2024-01-05T19:00:00Z",
+      "actual": 0.55,
+      "svmPredicted": 1.57,
+      "baggingPredicted": 1.74,
+      "timeSeriesPredicted": 1.99
+    },
+    {
+      "timestamp": "2024-01-05T20:00:00Z",
+      "actual": 7.6,
+      "svmPredicted": 7.13,
+      "baggingPredicted": 7.18,
+      "timeSeriesPredicted": 7.04
+    },
+    {
+      "timestamp": "2024-01-05T21:00:00Z",
+      "actual": 0.08,
+      "svmPredicted": 0.5,
+      "baggingPredicted": 0.34,
+      "timeSeriesPredicted": 0.49
+    },
+    {
+      "timestamp": "2024-01-05T22:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.45,
+      "baggingPredicted": 0.44,
+      "timeSeriesPredicted": 0.0
+    },
+    {
+      "timestamp": "2024-01-05T23:00:00Z",
+      "actual": 22.19,
+      "svmPredicted": 20.3,
+      "baggingPredicted": 21.58,
+      "timeSeriesPredicted": 19.64
+    },
+    {
+      "timestamp": "2024-01-06T00:00:00Z",
+      "actual": 8.29,
+      "svmPredicted": 7.6,
+      "baggingPredicted": 7.41,
+      "timeSeriesPredicted": 7.51
+    },
+    {
+      "timestamp": "2024-01-06T01:00:00Z",
+      "actual": 1.96,
+      "svmPredicted": 0.74,
+      "baggingPredicted": 0.86,
+      "timeSeriesPredicted": 1.01
+    },
+    {
+      "timestamp": "2024-01-06T02:00:00Z",
+      "actual": 28.71,
+      "svmPredicted": 30.18,
+      "baggingPredicted": 30.4,
+      "timeSeriesPredicted": 29.84
+    },
+    {
+      "timestamp": "2024-01-06T03:00:00Z",
+      "actual": 1.9,
+      "svmPredicted": 0.9,
+      "baggingPredicted": 0.72,
+      "timeSeriesPredicted": 1.06
+    },
+    {
+      "timestamp": "2024-01-06T04:00:00Z",
+      "actual": 5.24,
+      "svmPredicted": 5.81,
+      "baggingPredicted": 5.86,
+      "timeSeriesPredicted": 5.58
+    },
+    {
+      "timestamp": "2024-01-06T05:00:00Z",
+      "actual": 32.7,
+      "svmPredicted": 31.42,
+      "baggingPredicted": 30.57,
+      "timeSeriesPredicted": 31.33
+    },
+    {
+      "timestamp": "2024-01-06T06:00:00Z",
+      "actual": 2.88,
+      "svmPredicted": 2.62,
+      "baggingPredicted": 2.71,
+      "timeSeriesPredicted": 2.65
+    },
+    {
+      "timestamp": "2024-01-06T07:00:00Z",
+      "actual": 0.5,
+      "svmPredicted": 0.47,
+      "baggingPredicted": 0.34,
+      "timeSeriesPredicted": 0.39
+    },
+    {
+      "timestamp": "2024-01-06T08:00:00Z",
+      "actual": 18.61,
+      "svmPredicted": 17.73,
+      "baggingPredicted": 17.48,
+      "timeSeriesPredicted": 18.36
+    },
+    {
+      "timestamp": "2024-01-06T09:00:00Z",
+      "actual": 20.26,
+      "svmPredicted": 20.08,
+      "baggingPredicted": 19.62,
+      "timeSeriesPredicted": 20.64
+    },
+    {
+      "timestamp": "2024-01-06T10:00:00Z",
+      "actual": 0.47,
+      "svmPredicted": 0.44,
+      "baggingPredicted": 0.29,
+      "timeSeriesPredicted": 0.0
+    },
+    {
+      "timestamp": "2024-01-06T11:00:00Z",
+      "actual": 10.49,
+      "svmPredicted": 11.24,
+      "baggingPredicted": 11.01,
+      "timeSeriesPredicted": 11.25
+    },
+    {
+      "timestamp": "2024-01-06T12:00:00Z",
+      "actual": 1.07,
+      "svmPredicted": 0.97,
+      "baggingPredicted": 0.98,
+      "timeSeriesPredicted": 1.29
+    },
+    {
+      "timestamp": "2024-01-06T13:00:00Z",
+      "actual": 23.96,
+      "svmPredicted": 23.98,
+      "baggingPredicted": 24.15,
+      "timeSeriesPredicted": 23.44
+    },
+    {
+      "timestamp": "2024-01-06T14:00:00Z",
+      "actual": 0.09,
+      "svmPredicted": 0.47,
+      "baggingPredicted": 0.35,
+      "timeSeriesPredicted": 0.36
+    },
+    {
+      "timestamp": "2024-01-06T15:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.37,
+      "baggingPredicted": 0.39,
+      "timeSeriesPredicted": 0.0
+    },
+    {
+      "timestamp": "2024-01-06T16:00:00Z",
+      "actual": 0.19,
+      "svmPredicted": 0.47,
+      "baggingPredicted": 0.33,
+      "timeSeriesPredicted": 0.36
+    },
+    {
+      "timestamp": "2024-01-06T17:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.55,
+      "baggingPredicted": 0.4,
+      "timeSeriesPredicted": 0.61
+    },
+    {
+      "timestamp": "2024-01-06T18:00:00Z",
+      "actual": 13.53,
+      "svmPredicted": 12.44,
+      "baggingPredicted": 11.61,
+      "timeSeriesPredicted": 12.45
+    },
+    {
+      "timestamp": "2024-01-06T19:00:00Z",
+      "actual": 2.97,
+      "svmPredicted": 4.37,
+      "baggingPredicted": 4.74,
+      "timeSeriesPredicted": 4.42
+    },
+    {
+      "timestamp": "2024-01-06T20:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.49,
+      "baggingPredicted": 0.3,
+      "timeSeriesPredicted": 0.44
+    },
+    {
+      "timestamp": "2024-01-06T21:00:00Z",
+      "actual": 0.61,
+      "svmPredicted": 0.48,
+      "baggingPredicted": 0.38,
+      "timeSeriesPredicted": 0.33
+    },
+    {
+      "timestamp": "2024-01-06T22:00:00Z",
+      "actual": 0.07,
+      "svmPredicted": 0.52,
+      "baggingPredicted": 0.47,
+      "timeSeriesPredicted": 0.37
+    },
+    {
+      "timestamp": "2024-01-06T23:00:00Z",
+      "actual": 13.47,
+      "svmPredicted": 13.72,
+      "baggingPredicted": 13.88,
+      "timeSeriesPredicted": 13.73
+    },
+    {
+      "timestamp": "2024-01-07T00:00:00Z",
+      "actual": 11.96,
+      "svmPredicted": 11.13,
+      "baggingPredicted": 10.66,
+      "timeSeriesPredicted": 11.15
+    },
+    {
+      "timestamp": "2024-01-07T01:00:00Z",
+      "actual": 28.37,
+      "svmPredicted": 29.3,
+      "baggingPredicted": 29.57,
+      "timeSeriesPredicted": 28.95
+    },
+    {
+      "timestamp": "2024-01-07T02:00:00Z",
+      "actual": 2.2,
+      "svmPredicted": 0.81,
+      "baggingPredicted": 0.79,
+      "timeSeriesPredicted": 1.03
+    },
+    {
+      "timestamp": "2024-01-07T03:00:00Z",
+      "actual": 12.48,
+      "svmPredicted": 12.55,
+      "baggingPredicted": 12.92,
+      "timeSeriesPredicted": 12.42
+    },
+    {
+      "timestamp": "2024-01-07T04:00:00Z",
+      "actual": 10.23,
+      "svmPredicted": 9.88,
+      "baggingPredicted": 10.43,
+      "timeSeriesPredicted": 9.85
+    },
+    {
+      "timestamp": "2024-01-07T05:00:00Z",
+      "actual": 0.58,
+      "svmPredicted": 0.46,
+      "baggingPredicted": 0.31,
+      "timeSeriesPredicted": 0.31
+    },
+    {
+      "timestamp": "2024-01-07T06:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.57,
+      "baggingPredicted": 0.38,
+      "timeSeriesPredicted": 0.59
+    },
+    {
+      "timestamp": "2024-01-07T07:00:00Z",
+      "actual": 19.83,
+      "svmPredicted": 19.53,
+      "baggingPredicted": 19.29,
+      "timeSeriesPredicted": 20.23
+    },
+    {
+      "timestamp": "2024-01-07T08:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.46,
+      "baggingPredicted": 0.34,
+      "timeSeriesPredicted": 0.27
+    },
+    {
+      "timestamp": "2024-01-07T09:00:00Z",
+      "actual": 4.05,
+      "svmPredicted": 3.15,
+      "baggingPredicted": 3.55,
+      "timeSeriesPredicted": 3.3
+    },
+    {
+      "timestamp": "2024-01-07T10:00:00Z",
+      "actual": 11.94,
+      "svmPredicted": 13.58,
+      "baggingPredicted": 13.78,
+      "timeSeriesPredicted": 13.57
+    },
+    {
+      "timestamp": "2024-01-07T11:00:00Z",
+      "actual": 0.82,
+      "svmPredicted": 0.93,
+      "baggingPredicted": 0.94,
+      "timeSeriesPredicted": 1.27
+    },
+    {
+      "timestamp": "2024-01-07T12:00:00Z",
+      "actual": 18.05,
+      "svmPredicted": 18.77,
+      "baggingPredicted": 18.36,
+      "timeSeriesPredicted": 18.97
+    },
+    {
+      "timestamp": "2024-01-07T13:00:00Z",
+      "actual": 21.05,
+      "svmPredicted": 22.07,
+      "baggingPredicted": 22.01,
+      "timeSeriesPredicted": 22.96
+    },
+    {
+      "timestamp": "2024-01-07T14:00:00Z",
+      "actual": 1.35,
+      "svmPredicted": 0.38,
+      "baggingPredicted": 0.41,
+      "timeSeriesPredicted": 0.0
+    },
+    {
+      "timestamp": "2024-01-07T15:00:00Z",
+      "actual": 0.93,
+      "svmPredicted": 0.79,
+      "baggingPredicted": 0.6,
+      "timeSeriesPredicted": 0.97
+    },
+    {
+      "timestamp": "2024-01-07T16:00:00Z",
+      "actual": 8.42,
+      "svmPredicted": 8.72,
+      "baggingPredicted": 8.96,
+      "timeSeriesPredicted": 8.79
+    },
+    {
+      "timestamp": "2024-01-07T17:00:00Z",
+      "actual": 0.25,
+      "svmPredicted": 0.55,
+      "baggingPredicted": 0.35,
+      "timeSeriesPredicted": 0.62
+    },
+    {
+      "timestamp": "2024-01-07T18:00:00Z",
+      "actual": 2.93,
+      "svmPredicted": 0.82,
+      "baggingPredicted": 0.88,
+      "timeSeriesPredicted": 1.13
+    },
+    {
+      "timestamp": "2024-01-07T19:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.5,
+      "baggingPredicted": 0.49,
+      "timeSeriesPredicted": 0.17
+    },
+    {
+      "timestamp": "2024-01-07T20:00:00Z",
+      "actual": 17.88,
+      "svmPredicted": 17.42,
+      "baggingPredicted": 16.66,
+      "timeSeriesPredicted": 18.05
+    },
+    {
+      "timestamp": "2024-01-07T21:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.39,
+      "baggingPredicted": 0.38,
+      "timeSeriesPredicted": 0.0
+    },
+    {
+      "timestamp": "2024-01-07T22:00:00Z",
+      "actual": 8.62,
+      "svmPredicted": 8.28,
+      "baggingPredicted": 7.91,
+      "timeSeriesPredicted": 8.31
+    },
+    {
+      "timestamp": "2024-01-07T23:00:00Z",
+      "actual": 0.0,
+      "svmPredicted": 0.44,
+      "baggingPredicted": 0.4,
+      "timeSeriesPredicted": 0.0
+    }
+  ]
+}

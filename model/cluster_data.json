@@ -1,0 +1,2131 @@
+{
+  "points": [
+    {
+      "irradiance": 645.7,
+      "temperature": 30.5,
+      "power": 25.0,
+      "cluster": 0,
+      "site": "West Bengal"
+    },
+    {
+      "irradiance": 696.5,
+      "temperature": 32.3,
+      "power": 28.3,
+      "cluster": 0,
+      "site": "Odisha"
+    },
+    {
+      "irradiance": 600.6,
+      "temperature": 25.5,
+      "power": 24.2,
+      "cluster": 0,
+      "site": "Haryana"
+    },
+    {
+      "irradiance": 695.7,
+      "temperature": 32.3,
+      "power": 27.1,
+      "cluster": 0,
+      "site": "Gujarat"
+    },
+    {
+      "irradiance": 580.5,
+      "temperature": 28.4,
+      "power": 22.4,
+      "cluster": 0,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 641.1,
+      "temperature": 38.1,
+      "power": 25.6,
+      "cluster": 0,
+      "site": "Odisha"
+    },
+    {
+      "irradiance": 768.6,
+      "temperature": 32.3,
+      "power": 30.2,
+      "cluster": 0,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 675.8,
+      "temperature": 26.5,
+      "power": 26.6,
+      "cluster": 0,
+      "site": "Haryana"
+    },
+    {
+      "irradiance": 631.4,
+      "temperature": 28.9,
+      "power": 26.1,
+      "cluster": 0,
+      "site": "Odisha"
+    },
+    {
+      "irradiance": 782.5,
+      "temperature": 38.6,
+      "power": 29.6,
+      "cluster": 0,
+      "site": "West Bengal"
+    },
+    {
+      "irradiance": 610.8,
+      "temperature": 27.2,
+      "power": 23.9,
+      "cluster": 0,
+      "site": "Odisha"
+    },
+    {
+      "irradiance": 692.4,
+      "temperature": 41.5,
+      "power": 24.9,
+      "cluster": 0,
+      "site": "Rajasthan"
+    },
+    {
+      "irradiance": 839.6,
+      "temperature": 25.7,
+      "power": 32.8,
+      "cluster": 0,
+      "site": "Andhra Pradesh"
+    },
+    {
+      "irradiance": 797.1,
+      "temperature": 30.5,
+      "power": 28.3,
+      "cluster": 0,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 561.1,
+      "temperature": 41.8,
+      "power": 19.8,
+      "cluster": 0,
+      "site": "Maharashtra"
+    },
+    {
+      "irradiance": 579.7,
+      "temperature": 37.7,
+      "power": 21.3,
+      "cluster": 0,
+      "site": "Jaisalmer"
+    },
+    {
+      "irradiance": 735.9,
+      "temperature": 45.2,
+      "power": 25.5,
+      "cluster": 0,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 804.2,
+      "temperature": 39.2,
+      "power": 30.2,
+      "cluster": 0,
+      "site": "Gujarat"
+    },
+    {
+      "irradiance": 733.0,
+      "temperature": 31.4,
+      "power": 28.7,
+      "cluster": 0,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 622.5,
+      "temperature": 26.6,
+      "power": 24.1,
+      "cluster": 0,
+      "site": "Punjab"
+    },
+    {
+      "irradiance": 831.6,
+      "temperature": 40.8,
+      "power": 29.5,
+      "cluster": 0,
+      "site": "Rajasthan"
+    },
+    {
+      "irradiance": 671.1,
+      "temperature": 37.7,
+      "power": 24.8,
+      "cluster": 0,
+      "site": "Punjab"
+    },
+    {
+      "irradiance": 789.6,
+      "temperature": 34.4,
+      "power": 30.6,
+      "cluster": 0,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 773.4,
+      "temperature": 35.4,
+      "power": 29.9,
+      "cluster": 0,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 567.0,
+      "temperature": 27.1,
+      "power": 22.8,
+      "cluster": 0,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 564.5,
+      "temperature": 39.6,
+      "power": 19.6,
+      "cluster": 0,
+      "site": "Andhra Pradesh"
+    },
+    {
+      "irradiance": 722.6,
+      "temperature": 40.0,
+      "power": 25.2,
+      "cluster": 0,
+      "site": "West Bengal"
+    },
+    {
+      "irradiance": 595.5,
+      "temperature": 29.9,
+      "power": 24.3,
+      "cluster": 0,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 694.7,
+      "temperature": 22.2,
+      "power": 27.5,
+      "cluster": 0,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 573.0,
+      "temperature": 40.7,
+      "power": 20.5,
+      "cluster": 0,
+      "site": "West Bengal"
+    },
+    {
+      "irradiance": 548.1,
+      "temperature": 34.1,
+      "power": 20.9,
+      "cluster": 0,
+      "site": "Rajasthan"
+    },
+    {
+      "irradiance": 675.6,
+      "temperature": 32.9,
+      "power": 26.1,
+      "cluster": 0,
+      "site": "Haryana"
+    },
+    {
+      "irradiance": 603.9,
+      "temperature": 32.2,
+      "power": 21.3,
+      "cluster": 0,
+      "site": "Odisha"
+    },
+    {
+      "irradiance": 781.9,
+      "temperature": 34.8,
+      "power": 30.5,
+      "cluster": 0,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 666.4,
+      "temperature": 28.5,
+      "power": 27.8,
+      "cluster": 0,
+      "site": "Haryana"
+    },
+    {
+      "irradiance": 725.3,
+      "temperature": 45.1,
+      "power": 26.1,
+      "cluster": 0,
+      "site": "Haryana"
+    },
+    {
+      "irradiance": 593.3,
+      "temperature": 43.4,
+      "power": 21.3,
+      "cluster": 0,
+      "site": "Odisha"
+    },
+    {
+      "irradiance": 597.3,
+      "temperature": 35.7,
+      "power": 21.9,
+      "cluster": 0,
+      "site": "Gujarat"
+    },
+    {
+      "irradiance": 849.3,
+      "temperature": 30.6,
+      "power": 31.9,
+      "cluster": 0,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 592.9,
+      "temperature": 24.6,
+      "power": 23.5,
+      "cluster": 0,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 567.5,
+      "temperature": 39.4,
+      "power": 20.5,
+      "cluster": 0,
+      "site": "Gujarat"
+    },
+    {
+      "irradiance": 566.3,
+      "temperature": 34.4,
+      "power": 21.4,
+      "cluster": 0,
+      "site": "Odisha"
+    },
+    {
+      "irradiance": 758.1,
+      "temperature": 31.3,
+      "power": 30.3,
+      "cluster": 0,
+      "site": "Rajasthan"
+    },
+    {
+      "irradiance": 650.4,
+      "temperature": 44.5,
+      "power": 23.2,
+      "cluster": 0,
+      "site": "West Bengal"
+    },
+    {
+      "irradiance": 591.6,
+      "temperature": 40.1,
+      "power": 20.9,
+      "cluster": 0,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 800.7,
+      "temperature": 39.2,
+      "power": 30.2,
+      "cluster": 0,
+      "site": "Maharashtra"
+    },
+    {
+      "irradiance": 780.2,
+      "temperature": 39.6,
+      "power": 29.5,
+      "cluster": 0,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 727.4,
+      "temperature": 41.7,
+      "power": 27.4,
+      "cluster": 0,
+      "site": "Haryana"
+    },
+    {
+      "irradiance": 612.5,
+      "temperature": 21.6,
+      "power": 26.1,
+      "cluster": 0,
+      "site": "Andhra Pradesh"
+    },
+    {
+      "irradiance": 729.5,
+      "temperature": 34.2,
+      "power": 28.2,
+      "cluster": 0,
+      "site": "Haryana"
+    },
+    {
+      "irradiance": 654.1,
+      "temperature": 44.3,
+      "power": 22.8,
+      "cluster": 0,
+      "site": "Jaisalmer"
+    },
+    {
+      "irradiance": 703.0,
+      "temperature": 29.7,
+      "power": 26.4,
+      "cluster": 0,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 573.0,
+      "temperature": 42.3,
+      "power": 22.5,
+      "cluster": 0,
+      "site": "Gujarat"
+    },
+    {
+      "irradiance": 628.1,
+      "temperature": 29.0,
+      "power": 23.2,
+      "cluster": 0,
+      "site": "Gujarat"
+    },
+    {
+      "irradiance": 632.0,
+      "temperature": 40.8,
+      "power": 25.2,
+      "cluster": 0,
+      "site": "West Bengal"
+    },
+    {
+      "irradiance": 644.1,
+      "temperature": 43.2,
+      "power": 25.3,
+      "cluster": 0,
+      "site": "Maharashtra"
+    },
+    {
+      "irradiance": 693.1,
+      "temperature": 30.2,
+      "power": 28.4,
+      "cluster": 0,
+      "site": "Jaisalmer"
+    },
+    {
+      "irradiance": 545.5,
+      "temperature": 38.7,
+      "power": 21.1,
+      "cluster": 0,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 715.4,
+      "temperature": 34.7,
+      "power": 28.0,
+      "cluster": 0,
+      "site": "Maharashtra"
+    },
+    {
+      "irradiance": 660.3,
+      "temperature": 27.6,
+      "power": 26.8,
+      "cluster": 0,
+      "site": "West Bengal"
+    },
+    {
+      "irradiance": 601.1,
+      "temperature": 23.6,
+      "power": 22.8,
+      "cluster": 0,
+      "site": "Tamil Nadu"
+    },
+    {
+      "irradiance": 631.4,
+      "temperature": 39.5,
+      "power": 25.5,
+      "cluster": 0,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 559.4,
+      "temperature": 40.6,
+      "power": 20.7,
+      "cluster": 0,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 612.1,
+      "temperature": 35.6,
+      "power": 24.5,
+      "cluster": 0,
+      "site": "Haryana"
+    },
+    {
+      "irradiance": 599.3,
+      "temperature": 41.0,
+      "power": 22.3,
+      "cluster": 0,
+      "site": "Punjab"
+    },
+    {
+      "irradiance": 750.9,
+      "temperature": 22.3,
+      "power": 27.3,
+      "cluster": 0,
+      "site": "West Bengal"
+    },
+    {
+      "irradiance": 710.4,
+      "temperature": 33.0,
+      "power": 27.2,
+      "cluster": 0,
+      "site": "Odisha"
+    },
+    {
+      "irradiance": 642.8,
+      "temperature": 39.0,
+      "power": 25.9,
+      "cluster": 0,
+      "site": "Haryana"
+    },
+    {
+      "irradiance": 554.3,
+      "temperature": 37.1,
+      "power": 20.2,
+      "cluster": 0,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 591.4,
+      "temperature": 37.0,
+      "power": 22.2,
+      "cluster": 0,
+      "site": "Maharashtra"
+    },
+    {
+      "irradiance": 600.6,
+      "temperature": 39.8,
+      "power": 22.2,
+      "cluster": 0,
+      "site": "Odisha"
+    },
+    {
+      "irradiance": 763.9,
+      "temperature": 30.3,
+      "power": 29.3,
+      "cluster": 0,
+      "site": "Tamil Nadu"
+    },
+    {
+      "irradiance": 711.0,
+      "temperature": 30.9,
+      "power": 28.5,
+      "cluster": 0,
+      "site": "Punjab"
+    },
+    {
+      "irradiance": 777.6,
+      "temperature": 27.3,
+      "power": 28.1,
+      "cluster": 0,
+      "site": "Tamil Nadu"
+    },
+    {
+      "irradiance": 563.4,
+      "temperature": 25.9,
+      "power": 22.1,
+      "cluster": 0,
+      "site": "Jaisalmer"
+    },
+    {
+      "irradiance": 351.1,
+      "temperature": 18.7,
+      "power": 13.6,
+      "cluster": 1,
+      "site": "Punjab"
+    },
+    {
+      "irradiance": 408.1,
+      "temperature": 32.4,
+      "power": 15.3,
+      "cluster": 1,
+      "site": "Andhra Pradesh"
+    },
+    {
+      "irradiance": 379.1,
+      "temperature": 46.5,
+      "power": 14.1,
+      "cluster": 1,
+      "site": "Rajasthan"
+    },
+    {
+      "irradiance": 326.8,
+      "temperature": 36.5,
+      "power": 13.0,
+      "cluster": 1,
+      "site": "Jaisalmer"
+    },
+    {
+      "irradiance": 448.1,
+      "temperature": 27.7,
+      "power": 18.7,
+      "cluster": 1,
+      "site": "Rajasthan"
+    },
+    {
+      "irradiance": 448.2,
+      "temperature": 25.1,
+      "power": 18.5,
+      "cluster": 1,
+      "site": "Haryana"
+    },
+    {
+      "irradiance": 507.8,
+      "temperature": 42.0,
+      "power": 18.4,
+      "cluster": 1,
+      "site": "West Bengal"
+    },
+    {
+      "irradiance": 502.5,
+      "temperature": 30.1,
+      "power": 20.2,
+      "cluster": 1,
+      "site": "West Bengal"
+    },
+    {
+      "irradiance": 372.2,
+      "temperature": 30.0,
+      "power": 15.6,
+      "cluster": 1,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 334.6,
+      "temperature": 43.8,
+      "power": 12.5,
+      "cluster": 1,
+      "site": "Odisha"
+    },
+    {
+      "irradiance": 350.3,
+      "temperature": 27.6,
+      "power": 14.0,
+      "cluster": 1,
+      "site": "Jaisalmer"
+    },
+    {
+      "irradiance": 354.7,
+      "temperature": 22.1,
+      "power": 13.7,
+      "cluster": 1,
+      "site": "West Bengal"
+    },
+    {
+      "irradiance": 468.2,
+      "temperature": 22.6,
+      "power": 19.6,
+      "cluster": 1,
+      "site": "Rajasthan"
+    },
+    {
+      "irradiance": 479.2,
+      "temperature": 32.6,
+      "power": 18.7,
+      "cluster": 1,
+      "site": "Maharashtra"
+    },
+    {
+      "irradiance": 525.8,
+      "temperature": 41.5,
+      "power": 18.8,
+      "cluster": 1,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 432.9,
+      "temperature": 42.7,
+      "power": 16.3,
+      "cluster": 1,
+      "site": "Jaisalmer"
+    },
+    {
+      "irradiance": 335.0,
+      "temperature": 29.4,
+      "power": 14.8,
+      "cluster": 1,
+      "site": "Tamil Nadu"
+    },
+    {
+      "irradiance": 453.5,
+      "temperature": 29.9,
+      "power": 18.5,
+      "cluster": 1,
+      "site": "Haryana"
+    },
+    {
+      "irradiance": 458.1,
+      "temperature": 27.3,
+      "power": 19.1,
+      "cluster": 1,
+      "site": "Maharashtra"
+    },
+    {
+      "irradiance": 326.2,
+      "temperature": 29.6,
+      "power": 12.1,
+      "cluster": 1,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 393.0,
+      "temperature": 43.6,
+      "power": 15.3,
+      "cluster": 1,
+      "site": "Punjab"
+    },
+    {
+      "irradiance": 374.7,
+      "temperature": 31.8,
+      "power": 15.6,
+      "cluster": 1,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 429.2,
+      "temperature": 38.3,
+      "power": 17.6,
+      "cluster": 1,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 356.1,
+      "temperature": 44.5,
+      "power": 14.4,
+      "cluster": 1,
+      "site": "West Bengal"
+    },
+    {
+      "irradiance": 408.6,
+      "temperature": 38.8,
+      "power": 15.8,
+      "cluster": 1,
+      "site": "Gujarat"
+    },
+    {
+      "irradiance": 540.3,
+      "temperature": 23.2,
+      "power": 21.5,
+      "cluster": 1,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 361.8,
+      "temperature": 28.1,
+      "power": 14.5,
+      "cluster": 1,
+      "site": "Haryana"
+    },
+    {
+      "irradiance": 512.8,
+      "temperature": 23.5,
+      "power": 20.7,
+      "cluster": 1,
+      "site": "Jaisalmer"
+    },
+    {
+      "irradiance": 522.8,
+      "temperature": 26.1,
+      "power": 19.9,
+      "cluster": 1,
+      "site": "Tamil Nadu"
+    },
+    {
+      "irradiance": 404.5,
+      "temperature": 24.9,
+      "power": 17.9,
+      "cluster": 1,
+      "site": "Gujarat"
+    },
+    {
+      "irradiance": 435.1,
+      "temperature": 31.6,
+      "power": 15.7,
+      "cluster": 1,
+      "site": "Punjab"
+    },
+    {
+      "irradiance": 321.7,
+      "temperature": 25.0,
+      "power": 13.7,
+      "cluster": 1,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 486.8,
+      "temperature": 39.8,
+      "power": 19.6,
+      "cluster": 1,
+      "site": "Rajasthan"
+    },
+    {
+      "irradiance": 353.6,
+      "temperature": 41.8,
+      "power": 13.2,
+      "cluster": 1,
+      "site": "Odisha"
+    },
+    {
+      "irradiance": 371.4,
+      "temperature": 26.7,
+      "power": 15.7,
+      "cluster": 1,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 528.9,
+      "temperature": 41.5,
+      "power": 20.7,
+      "cluster": 1,
+      "site": "Jaisalmer"
+    },
+    {
+      "irradiance": 330.9,
+      "temperature": 30.6,
+      "power": 13.5,
+      "cluster": 1,
+      "site": "West Bengal"
+    },
+    {
+      "irradiance": 504.0,
+      "temperature": 38.5,
+      "power": 19.8,
+      "cluster": 1,
+      "site": "Andhra Pradesh"
+    },
+    {
+      "irradiance": 348.2,
+      "temperature": 36.7,
+      "power": 13.4,
+      "cluster": 1,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 458.8,
+      "temperature": 35.6,
+      "power": 17.7,
+      "cluster": 1,
+      "site": "Jaisalmer"
+    },
+    {
+      "irradiance": 398.4,
+      "temperature": 27.4,
+      "power": 17.6,
+      "cluster": 1,
+      "site": "Jaisalmer"
+    },
+    {
+      "irradiance": 450.5,
+      "temperature": 27.2,
+      "power": 18.4,
+      "cluster": 1,
+      "site": "Gujarat"
+    },
+    {
+      "irradiance": 337.4,
+      "temperature": 37.5,
+      "power": 12.1,
+      "cluster": 1,
+      "site": "Jaisalmer"
+    },
+    {
+      "irradiance": 339.7,
+      "temperature": 39.3,
+      "power": 12.6,
+      "cluster": 1,
+      "site": "Gujarat"
+    },
+    {
+      "irradiance": 481.3,
+      "temperature": 32.0,
+      "power": 20.1,
+      "cluster": 1,
+      "site": "Gujarat"
+    },
+    {
+      "irradiance": 385.1,
+      "temperature": 37.1,
+      "power": 15.1,
+      "cluster": 1,
+      "site": "Punjab"
+    },
+    {
+      "irradiance": 457.8,
+      "temperature": 27.9,
+      "power": 18.0,
+      "cluster": 1,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 353.5,
+      "temperature": 26.8,
+      "power": 15.1,
+      "cluster": 1,
+      "site": "Rajasthan"
+    },
+    {
+      "irradiance": 367.0,
+      "temperature": 36.3,
+      "power": 14.2,
+      "cluster": 1,
+      "site": "Maharashtra"
+    },
+    {
+      "irradiance": 348.9,
+      "temperature": 36.3,
+      "power": 13.8,
+      "cluster": 1,
+      "site": "Tamil Nadu"
+    },
+    {
+      "irradiance": 511.3,
+      "temperature": 45.0,
+      "power": 18.5,
+      "cluster": 1,
+      "site": "Gujarat"
+    },
+    {
+      "irradiance": 443.4,
+      "temperature": 43.2,
+      "power": 16.4,
+      "cluster": 1,
+      "site": "Odisha"
+    },
+    {
+      "irradiance": 366.5,
+      "temperature": 38.3,
+      "power": 12.8,
+      "cluster": 1,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 331.4,
+      "temperature": 25.8,
+      "power": 15.9,
+      "cluster": 1,
+      "site": "Andhra Pradesh"
+    },
+    {
+      "irradiance": 428.1,
+      "temperature": 47.0,
+      "power": 15.8,
+      "cluster": 1,
+      "site": "Gujarat"
+    },
+    {
+      "irradiance": 520.6,
+      "temperature": 40.3,
+      "power": 18.7,
+      "cluster": 1,
+      "site": "Tamil Nadu"
+    },
+    {
+      "irradiance": 459.9,
+      "temperature": 28.2,
+      "power": 19.8,
+      "cluster": 1,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 434.6,
+      "temperature": 31.8,
+      "power": 16.5,
+      "cluster": 1,
+      "site": "Jaisalmer"
+    },
+    {
+      "irradiance": 412.9,
+      "temperature": 28.3,
+      "power": 16.4,
+      "cluster": 1,
+      "site": "Gujarat"
+    },
+    {
+      "irradiance": 343.9,
+      "temperature": 24.6,
+      "power": 14.8,
+      "cluster": 1,
+      "site": "Odisha"
+    },
+    {
+      "irradiance": 440.1,
+      "temperature": 35.6,
+      "power": 17.4,
+      "cluster": 1,
+      "site": "Punjab"
+    },
+    {
+      "irradiance": 514.0,
+      "temperature": 37.3,
+      "power": 18.6,
+      "cluster": 1,
+      "site": "Andhra Pradesh"
+    },
+    {
+      "irradiance": 521.4,
+      "temperature": 47.3,
+      "power": 18.2,
+      "cluster": 1,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 344.2,
+      "temperature": 39.9,
+      "power": 13.7,
+      "cluster": 1,
+      "site": "Andhra Pradesh"
+    },
+    {
+      "irradiance": 405.8,
+      "temperature": 43.8,
+      "power": 14.6,
+      "cluster": 1,
+      "site": "Punjab"
+    },
+    {
+      "irradiance": 434.3,
+      "temperature": 29.6,
+      "power": 17.5,
+      "cluster": 1,
+      "site": "Haryana"
+    },
+    {
+      "irradiance": 357.1,
+      "temperature": 49.8,
+      "power": 13.8,
+      "cluster": 1,
+      "site": "Andhra Pradesh"
+    },
+    {
+      "irradiance": 529.5,
+      "temperature": 36.3,
+      "power": 18.4,
+      "cluster": 1,
+      "site": "Maharashtra"
+    },
+    {
+      "irradiance": 360.1,
+      "temperature": 41.6,
+      "power": 14.5,
+      "cluster": 1,
+      "site": "Andhra Pradesh"
+    },
+    {
+      "irradiance": 363.7,
+      "temperature": 37.6,
+      "power": 14.1,
+      "cluster": 1,
+      "site": "West Bengal"
+    },
+    {
+      "irradiance": 532.2,
+      "temperature": 40.0,
+      "power": 22.5,
+      "cluster": 1,
+      "site": "Odisha"
+    },
+    {
+      "irradiance": 452.7,
+      "temperature": 27.7,
+      "power": 18.9,
+      "cluster": 1,
+      "site": "Punjab"
+    },
+    {
+      "irradiance": 387.7,
+      "temperature": 35.0,
+      "power": 15.8,
+      "cluster": 1,
+      "site": "Maharashtra"
+    },
+    {
+      "irradiance": 342.0,
+      "temperature": 25.3,
+      "power": 13.9,
+      "cluster": 1,
+      "site": "Andhra Pradesh"
+    },
+    {
+      "irradiance": 511.6,
+      "temperature": 36.5,
+      "power": 19.4,
+      "cluster": 1,
+      "site": "Haryana"
+    },
+    {
+      "irradiance": 267.0,
+      "temperature": 43.6,
+      "power": 10.2,
+      "cluster": 2,
+      "site": "Odisha"
+    },
+    {
+      "irradiance": 282.8,
+      "temperature": 27.7,
+      "power": 11.5,
+      "cluster": 2,
+      "site": "Jaisalmer"
+    },
+    {
+      "irradiance": 286.7,
+      "temperature": 35.3,
+      "power": 11.8,
+      "cluster": 2,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 291.7,
+      "temperature": 41.2,
+      "power": 11.8,
+      "cluster": 2,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 131.9,
+      "temperature": 43.6,
+      "power": 4.5,
+      "cluster": 2,
+      "site": "Punjab"
+    },
+    {
+      "irradiance": 176.5,
+      "temperature": 42.8,
+      "power": 7.2,
+      "cluster": 2,
+      "site": "Maharashtra"
+    },
+    {
+      "irradiance": 263.8,
+      "temperature": 38.0,
+      "power": 10.3,
+      "cluster": 2,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 282.7,
+      "temperature": 32.6,
+      "power": 10.8,
+      "cluster": 2,
+      "site": "Jaisalmer"
+    },
+    {
+      "irradiance": 241.3,
+      "temperature": 30.0,
+      "power": 8.0,
+      "cluster": 2,
+      "site": "Odisha"
+    },
+    {
+      "irradiance": 317.2,
+      "temperature": 39.4,
+      "power": 11.1,
+      "cluster": 2,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 200.0,
+      "temperature": 37.6,
+      "power": 7.0,
+      "cluster": 2,
+      "site": "Tamil Nadu"
+    },
+    {
+      "irradiance": 254.0,
+      "temperature": 47.0,
+      "power": 9.2,
+      "cluster": 2,
+      "site": "Rajasthan"
+    },
+    {
+      "irradiance": 257.1,
+      "temperature": 39.1,
+      "power": 9.4,
+      "cluster": 2,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 272.5,
+      "temperature": 22.2,
+      "power": 11.3,
+      "cluster": 2,
+      "site": "Andhra Pradesh"
+    },
+    {
+      "irradiance": 265.4,
+      "temperature": 29.8,
+      "power": 11.1,
+      "cluster": 2,
+      "site": "Jaisalmer"
+    },
+    {
+      "irradiance": 291.7,
+      "temperature": 36.0,
+      "power": 12.2,
+      "cluster": 2,
+      "site": "Andhra Pradesh"
+    },
+    {
+      "irradiance": 201.0,
+      "temperature": 25.4,
+      "power": 6.9,
+      "cluster": 2,
+      "site": "Odisha"
+    },
+    {
+      "irradiance": 226.4,
+      "temperature": 27.6,
+      "power": 8.5,
+      "cluster": 2,
+      "site": "Punjab"
+    },
+    {
+      "irradiance": 319.2,
+      "temperature": 49.1,
+      "power": 11.8,
+      "cluster": 2,
+      "site": "Maharashtra"
+    },
+    {
+      "irradiance": 306.8,
+      "temperature": 39.6,
+      "power": 14.1,
+      "cluster": 2,
+      "site": "Rajasthan"
+    },
+    {
+      "irradiance": 270.0,
+      "temperature": 30.6,
+      "power": 11.2,
+      "cluster": 2,
+      "site": "Andhra Pradesh"
+    },
+    {
+      "irradiance": 210.8,
+      "temperature": 42.4,
+      "power": 8.9,
+      "cluster": 2,
+      "site": "Haryana"
+    },
+    {
+      "irradiance": 303.0,
+      "temperature": 25.5,
+      "power": 13.6,
+      "cluster": 2,
+      "site": "Tamil Nadu"
+    },
+    {
+      "irradiance": 189.5,
+      "temperature": 35.8,
+      "power": 5.1,
+      "cluster": 2,
+      "site": "Gujarat"
+    },
+    {
+      "irradiance": 220.1,
+      "temperature": 37.6,
+      "power": 10.6,
+      "cluster": 2,
+      "site": "Maharashtra"
+    },
+    {
+      "irradiance": 227.4,
+      "temperature": 36.6,
+      "power": 11.0,
+      "cluster": 2,
+      "site": "Gujarat"
+    },
+    {
+      "irradiance": 262.8,
+      "temperature": 32.7,
+      "power": 9.3,
+      "cluster": 2,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 226.8,
+      "temperature": 27.7,
+      "power": 9.2,
+      "cluster": 2,
+      "site": "Haryana"
+    },
+    {
+      "irradiance": 206.6,
+      "temperature": 35.6,
+      "power": 5.7,
+      "cluster": 2,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 300.1,
+      "temperature": 33.8,
+      "power": 12.6,
+      "cluster": 2,
+      "site": "Haryana"
+    },
+    {
+      "irradiance": 153.9,
+      "temperature": 33.5,
+      "power": 5.4,
+      "cluster": 2,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 314.0,
+      "temperature": 38.0,
+      "power": 12.0,
+      "cluster": 2,
+      "site": "Maharashtra"
+    },
+    {
+      "irradiance": 311.8,
+      "temperature": 26.5,
+      "power": 13.0,
+      "cluster": 2,
+      "site": "Gujarat"
+    },
+    {
+      "irradiance": 150.7,
+      "temperature": 35.7,
+      "power": 5.6,
+      "cluster": 2,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 297.3,
+      "temperature": 45.9,
+      "power": 10.3,
+      "cluster": 2,
+      "site": "Andhra Pradesh"
+    },
+    {
+      "irradiance": 196.2,
+      "temperature": 37.9,
+      "power": 7.5,
+      "cluster": 2,
+      "site": "Tamil Nadu"
+    },
+    {
+      "irradiance": 226.8,
+      "temperature": 32.3,
+      "power": 10.1,
+      "cluster": 2,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 280.9,
+      "temperature": 39.6,
+      "power": 10.7,
+      "cluster": 2,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 153.6,
+      "temperature": 24.5,
+      "power": 7.2,
+      "cluster": 2,
+      "site": "West Bengal"
+    },
+    {
+      "irradiance": 121.7,
+      "temperature": 33.0,
+      "power": 4.0,
+      "cluster": 2,
+      "site": "Haryana"
+    },
+    {
+      "irradiance": 142.7,
+      "temperature": 25.5,
+      "power": 6.0,
+      "cluster": 2,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 245.9,
+      "temperature": 38.6,
+      "power": 8.3,
+      "cluster": 2,
+      "site": "Andhra Pradesh"
+    },
+    {
+      "irradiance": 181.2,
+      "temperature": 42.4,
+      "power": 6.0,
+      "cluster": 2,
+      "site": "Gujarat"
+    },
+    {
+      "irradiance": 303.8,
+      "temperature": 34.2,
+      "power": 10.0,
+      "cluster": 2,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 267.6,
+      "temperature": 22.7,
+      "power": 11.3,
+      "cluster": 2,
+      "site": "Punjab"
+    },
+    {
+      "irradiance": 302.9,
+      "temperature": 40.4,
+      "power": 11.2,
+      "cluster": 2,
+      "site": "West Bengal"
+    },
+    {
+      "irradiance": 123.5,
+      "temperature": 33.9,
+      "power": 3.5,
+      "cluster": 2,
+      "site": "West Bengal"
+    },
+    {
+      "irradiance": 150.1,
+      "temperature": 24.1,
+      "power": 5.8,
+      "cluster": 2,
+      "site": "Gujarat"
+    },
+    {
+      "irradiance": 270.0,
+      "temperature": 38.5,
+      "power": 11.3,
+      "cluster": 2,
+      "site": "Andhra Pradesh"
+    },
+    {
+      "irradiance": 251.3,
+      "temperature": 20.2,
+      "power": 9.6,
+      "cluster": 2,
+      "site": "Andhra Pradesh"
+    },
+    {
+      "irradiance": 281.2,
+      "temperature": 39.8,
+      "power": 10.8,
+      "cluster": 2,
+      "site": "Jaisalmer"
+    },
+    {
+      "irradiance": 265.4,
+      "temperature": 33.6,
+      "power": 10.8,
+      "cluster": 2,
+      "site": "Tamil Nadu"
+    },
+    {
+      "irradiance": 294.7,
+      "temperature": 33.0,
+      "power": 11.1,
+      "cluster": 2,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 289.9,
+      "temperature": 37.3,
+      "power": 11.2,
+      "cluster": 2,
+      "site": "Andhra Pradesh"
+    },
+    {
+      "irradiance": 252.2,
+      "temperature": 28.1,
+      "power": 10.1,
+      "cluster": 2,
+      "site": "Gujarat"
+    },
+    {
+      "irradiance": 217.6,
+      "temperature": 32.4,
+      "power": 8.9,
+      "cluster": 2,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 218.9,
+      "temperature": 38.2,
+      "power": 8.9,
+      "cluster": 2,
+      "site": "Andhra Pradesh"
+    },
+    {
+      "irradiance": 308.9,
+      "temperature": 30.5,
+      "power": 11.2,
+      "cluster": 2,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 318.8,
+      "temperature": 46.5,
+      "power": 10.7,
+      "cluster": 2,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 260.9,
+      "temperature": 41.3,
+      "power": 9.0,
+      "cluster": 2,
+      "site": "Jaisalmer"
+    },
+    {
+      "irradiance": 264.2,
+      "temperature": 42.7,
+      "power": 10.0,
+      "cluster": 2,
+      "site": "Andhra Pradesh"
+    },
+    {
+      "irradiance": 238.9,
+      "temperature": 30.0,
+      "power": 9.0,
+      "cluster": 2,
+      "site": "Andhra Pradesh"
+    },
+    {
+      "irradiance": 227.1,
+      "temperature": 25.7,
+      "power": 10.0,
+      "cluster": 2,
+      "site": "Maharashtra"
+    },
+    {
+      "irradiance": 318.8,
+      "temperature": 21.2,
+      "power": 13.0,
+      "cluster": 2,
+      "site": "Andhra Pradesh"
+    },
+    {
+      "irradiance": 237.9,
+      "temperature": 34.9,
+      "power": 8.8,
+      "cluster": 2,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 287.9,
+      "temperature": 41.5,
+      "power": 10.2,
+      "cluster": 2,
+      "site": "West Bengal"
+    },
+    {
+      "irradiance": 233.8,
+      "temperature": 28.4,
+      "power": 9.3,
+      "cluster": 2,
+      "site": "Tamil Nadu"
+    },
+    {
+      "irradiance": 144.1,
+      "temperature": 35.9,
+      "power": 4.8,
+      "cluster": 2,
+      "site": "Jaisalmer"
+    },
+    {
+      "irradiance": 284.2,
+      "temperature": 38.8,
+      "power": 12.1,
+      "cluster": 2,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 140.5,
+      "temperature": 37.0,
+      "power": 5.5,
+      "cluster": 2,
+      "site": "Andhra Pradesh"
+    },
+    {
+      "irradiance": 289.9,
+      "temperature": 24.5,
+      "power": 11.8,
+      "cluster": 2,
+      "site": "Haryana"
+    },
+    {
+      "irradiance": 190.9,
+      "temperature": 22.9,
+      "power": 7.9,
+      "cluster": 2,
+      "site": "Haryana"
+    },
+    {
+      "irradiance": 125.6,
+      "temperature": 20.2,
+      "power": 4.8,
+      "cluster": 2,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 202.8,
+      "temperature": 43.8,
+      "power": 8.7,
+      "cluster": 2,
+      "site": "Jaisalmer"
+    },
+    {
+      "irradiance": 296.7,
+      "temperature": 40.5,
+      "power": 11.0,
+      "cluster": 2,
+      "site": "Odisha"
+    },
+    {
+      "irradiance": 9.0,
+      "temperature": 24.9,
+      "power": 1.0,
+      "cluster": 3,
+      "site": "Odisha"
+    },
+    {
+      "irradiance": 8.5,
+      "temperature": 30.5,
+      "power": 0.0,
+      "cluster": 3,
+      "site": "Punjab"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 31.8,
+      "power": 0.0,
+      "cluster": 3,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 2.2,
+      "temperature": 21.6,
+      "power": 0.3,
+      "cluster": 3,
+      "site": "Gujarat"
+    },
+    {
+      "irradiance": 24.7,
+      "temperature": 18.1,
+      "power": 1.8,
+      "cluster": 3,
+      "site": "Punjab"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 26.9,
+      "power": 0.7,
+      "cluster": 3,
+      "site": "Rajasthan"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 21.2,
+      "power": 0.8,
+      "cluster": 3,
+      "site": "Rajasthan"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 17.7,
+      "power": 0.0,
+      "cluster": 3,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 20.6,
+      "power": 0.0,
+      "cluster": 3,
+      "site": "Jaisalmer"
+    },
+    {
+      "irradiance": 23.3,
+      "temperature": 29.0,
+      "power": 0.9,
+      "cluster": 3,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 6.0,
+      "temperature": 30.3,
+      "power": 0.9,
+      "cluster": 3,
+      "site": "Jaisalmer"
+    },
+    {
+      "irradiance": 5.3,
+      "temperature": 33.6,
+      "power": 0.4,
+      "cluster": 3,
+      "site": "West Bengal"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 34.4,
+      "power": 1.6,
+      "cluster": 3,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 31.1,
+      "temperature": 45.4,
+      "power": 1.1,
+      "cluster": 3,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 42.1,
+      "temperature": 19.4,
+      "power": 1.7,
+      "cluster": 3,
+      "site": "Jaisalmer"
+    },
+    {
+      "irradiance": 16.6,
+      "temperature": 21.3,
+      "power": 1.5,
+      "cluster": 3,
+      "site": "Odisha"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 22.2,
+      "power": 0.7,
+      "cluster": 3,
+      "site": "Jaisalmer"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 34.8,
+      "power": 0.0,
+      "cluster": 3,
+      "site": "Andhra Pradesh"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 29.5,
+      "power": 0.0,
+      "cluster": 3,
+      "site": "West Bengal"
+    },
+    {
+      "irradiance": 24.6,
+      "temperature": 29.0,
+      "power": 0.3,
+      "cluster": 3,
+      "site": "Tamil Nadu"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 35.5,
+      "power": 0.0,
+      "cluster": 3,
+      "site": "Jaisalmer"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 43.1,
+      "power": 0.5,
+      "cluster": 3,
+      "site": "Jaisalmer"
+    },
+    {
+      "irradiance": 10.7,
+      "temperature": 11.7,
+      "power": 0.0,
+      "cluster": 3,
+      "site": "Gujarat"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 22.8,
+      "power": 0.0,
+      "cluster": 3,
+      "site": "West Bengal"
+    },
+    {
+      "irradiance": 62.1,
+      "temperature": 18.0,
+      "power": 1.3,
+      "cluster": 3,
+      "site": "Maharashtra"
+    },
+    {
+      "irradiance": 28.9,
+      "temperature": 18.7,
+      "power": 0.4,
+      "cluster": 3,
+      "site": "Odisha"
+    },
+    {
+      "irradiance": 30.8,
+      "temperature": 27.5,
+      "power": 0.7,
+      "cluster": 3,
+      "site": "Punjab"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 37.5,
+      "power": 0.0,
+      "cluster": 3,
+      "site": "Maharashtra"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 20.5,
+      "power": 0.0,
+      "cluster": 3,
+      "site": "Haryana"
+    },
+    {
+      "irradiance": 16.4,
+      "temperature": 31.7,
+      "power": 1.8,
+      "cluster": 3,
+      "site": "Odisha"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 19.8,
+      "power": 0.0,
+      "cluster": 3,
+      "site": "Haryana"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 20.5,
+      "power": 0.0,
+      "cluster": 3,
+      "site": "Punjab"
+    },
+    {
+      "irradiance": 20.8,
+      "temperature": 37.7,
+      "power": 1.1,
+      "cluster": 3,
+      "site": "Rajasthan"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 20.2,
+      "power": 0.0,
+      "cluster": 3,
+      "site": "Rajasthan"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 33.6,
+      "power": 0.7,
+      "cluster": 3,
+      "site": "Odisha"
+    },
+    {
+      "irradiance": 37.5,
+      "temperature": 28.7,
+      "power": 1.7,
+      "cluster": 3,
+      "site": "Odisha"
+    },
+    {
+      "irradiance": 28.6,
+      "temperature": 33.0,
+      "power": 0.0,
+      "cluster": 3,
+      "site": "Rajasthan"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 30.6,
+      "power": 0.0,
+      "cluster": 3,
+      "site": "Tamil Nadu"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 21.4,
+      "power": 0.4,
+      "cluster": 3,
+      "site": "Punjab"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 13.5,
+      "power": 1.2,
+      "cluster": 3,
+      "site": "Jaisalmer"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 23.8,
+      "power": 0.2,
+      "cluster": 3,
+      "site": "Odisha"
+    },
+    {
+      "irradiance": 42.8,
+      "temperature": 34.9,
+      "power": 3.3,
+      "cluster": 3,
+      "site": "Tamil Nadu"
+    },
+    {
+      "irradiance": 34.4,
+      "temperature": 22.1,
+      "power": 0.9,
+      "cluster": 3,
+      "site": "Tamil Nadu"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 28.3,
+      "power": 0.0,
+      "cluster": 3,
+      "site": "Rajasthan"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 27.8,
+      "power": 1.0,
+      "cluster": 3,
+      "site": "Punjab"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 24.0,
+      "power": 0.5,
+      "cluster": 3,
+      "site": "Andhra Pradesh"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 39.3,
+      "power": 0.0,
+      "cluster": 3,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 10.3,
+      "temperature": 26.5,
+      "power": 1.2,
+      "cluster": 3,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 22.2,
+      "temperature": 32.4,
+      "power": 0.0,
+      "cluster": 3,
+      "site": "Gujarat"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 22.1,
+      "power": 2.3,
+      "cluster": 3,
+      "site": "Odisha"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 35.8,
+      "power": 0.0,
+      "cluster": 3,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 32.2,
+      "power": 0.0,
+      "cluster": 3,
+      "site": "Maharashtra"
+    },
+    {
+      "irradiance": 5.5,
+      "temperature": 16.8,
+      "power": 0.0,
+      "cluster": 3,
+      "site": "Rajasthan"
+    },
+    {
+      "irradiance": 56.5,
+      "temperature": 26.6,
+      "power": 2.0,
+      "cluster": 3,
+      "site": "Tamil Nadu"
+    },
+    {
+      "irradiance": 46.4,
+      "temperature": 33.5,
+      "power": 1.4,
+      "cluster": 3,
+      "site": "Tamil Nadu"
+    },
+    {
+      "irradiance": 59.8,
+      "temperature": 28.6,
+      "power": 2.3,
+      "cluster": 3,
+      "site": "Andhra Pradesh"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 37.1,
+      "power": 0.4,
+      "cluster": 3,
+      "site": "West Bengal"
+    },
+    {
+      "irradiance": 13.8,
+      "temperature": 22.4,
+      "power": 0.0,
+      "cluster": 3,
+      "site": "Punjab"
+    },
+    {
+      "irradiance": 2.3,
+      "temperature": 26.6,
+      "power": 0.4,
+      "cluster": 3,
+      "site": "West Bengal"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 41.8,
+      "power": 0.0,
+      "cluster": 3,
+      "site": "Tamil Nadu"
+    },
+    {
+      "irradiance": 75.5,
+      "temperature": 32.7,
+      "power": 2.3,
+      "cluster": 3,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 10.9,
+      "temperature": 32.8,
+      "power": 0.0,
+      "cluster": 3,
+      "site": "Kerala"
+    },
+    {
+      "irradiance": 19.2,
+      "temperature": 32.3,
+      "power": 1.2,
+      "cluster": 3,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 32.8,
+      "power": 0.2,
+      "cluster": 3,
+      "site": "West Bengal"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 18.8,
+      "power": 0.4,
+      "cluster": 3,
+      "site": "Maharashtra"
+    },
+    {
+      "irradiance": 13.0,
+      "temperature": 30.3,
+      "power": 1.8,
+      "cluster": 3,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 14.1,
+      "temperature": 14.8,
+      "power": 0.2,
+      "cluster": 3,
+      "site": "Andhra Pradesh"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 29.5,
+      "power": 0.2,
+      "cluster": 3,
+      "site": "Odisha"
+    },
+    {
+      "irradiance": 10.8,
+      "temperature": 26.4,
+      "power": 2.1,
+      "cluster": 3,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 11.3,
+      "temperature": 29.5,
+      "power": 1.0,
+      "cluster": 3,
+      "site": "Jodhpur"
+    },
+    {
+      "irradiance": 33.6,
+      "temperature": 20.8,
+      "power": 0.0,
+      "cluster": 3,
+      "site": "Jaisalmer"
+    },
+    {
+      "irradiance": 1.6,
+      "temperature": 32.9,
+      "power": 0.0,
+      "cluster": 3,
+      "site": "West Bengal"
+    },
+    {
+      "irradiance": 0.0,
+      "temperature": 29.6,
+      "power": 0.0,
+      "cluster": 3,
+      "site": "Rajasthan"
+    },
+    {
+      "irradiance": 15.9,
+      "temperature": 28.0,
+      "power": 0.1,
+      "cluster": 3,
+      "site": "Tamil Nadu"
+    },
+    {
+      "irradiance": 22.6,
+      "temperature": 22.6,
+      "power": 1.1,
+      "cluster": 3,
+      "site": "Kerala"
+    }
+  ],
+  "centroids": [
+    {
+      "cluster": 0,
+      "irradiance": 669.7,
+      "temperature": 34.9,
+      "label": "High Irradiance \u2014 Arid"
+    },
+    {
+      "cluster": 1,
+      "irradiance": 419.9,
+      "temperature": 33.8,
+      "label": "Moderate \u2014 Temperate"
+    },
+    {
+      "cluster": 2,
+      "irradiance": 223.0,
+      "temperature": 32.8,
+      "label": "Low \u2014 Coastal / Humid"
+    },
+    {
+      "cluster": 3,
+      "irradiance": 16.3,
+      "temperature": 27.4,
+      "label": "Variable \u2014 Monsoon"
+    }
+  ],
+  "numClusters": 4
+}
