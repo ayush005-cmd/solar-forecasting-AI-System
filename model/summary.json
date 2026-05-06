@@ -1,8 +1,9 @@
 {
-  "totalPredictions": 5686,
-  "avgDailyOutput": 7.3,
-  "bestModelAccuracy": 99.3,
+  "totalPredictions": 3018,
+  "avgDailyOutput": 6704.1,
+  "bestModelAccuracy": 99.5,
   "sitesMonitored": 12,
-  "peakPower": 33.4,
-  "avgConfidence": 0.993
+  "peakPower": 29049.0,
+  "avgConfidence": 0.989,
+  "usingRealData": true
 }

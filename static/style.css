@@ -540,3 +540,85 @@ canvas { width: 100% !important; }
   font-size: .8rem;
   color: var(--text-muted);
 }
+/* ── Evaluation Section ─────────────────────────────────────── */
+.eval-tabs {
+  display: flex;
+  gap: .5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+.eval-tab {
+  padding: .35rem .9rem;
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: transparent;
+  color: var(--text-dim);
+  font-size: .8rem;
+  cursor: pointer;
+  transition: all .2s;
+  font-family: 'JetBrains Mono', monospace;
+}
+.eval-tab:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+.eval-tab.active {
+  background: var(--gold);
+  color: #0a0f1e;
+  border-color: var(--gold);
+  font-weight: 700;
+}
+.eval-stats {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: .75rem;
+  flex-wrap: wrap;
+}
+.eval-stat {
+  font-size: .8rem;
+  color: var(--text-muted);
+  font-family: 'JetBrains Mono', monospace;
+}
+.eval-stat strong {
+  color: var(--gold);
+}
+
+/* ── Cross-Validation Grid ─────────────────────────────────── */
+.cv-grid {
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+}
+.cv-model-row {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 10px;
+  padding: .85rem 1.1rem;
+}
+.cv-model-name {
+  font-weight: 700;
+  font-size: .85rem;
+  margin-bottom: .5rem;
+}
+.cv-folds {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cv-fold-chip {
+  padding: .25rem .6rem;
+  border-radius: 6px;
+  font-size: .75rem;
+  font-family: 'JetBrains Mono', monospace;
+  background: rgba(255,255,255,0.06);
+  color: var(--text-dim);
+}
+.cv-mean-chip {
+  padding: .25rem .75rem;
+  border-radius: 6px;
+  font-size: .8rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 700;
+  margin-left: .5rem;
+}

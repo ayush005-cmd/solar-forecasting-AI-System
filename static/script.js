@@ -16,6 +16,7 @@ function navigate(id) {
   if (id === 'models')     loadModels();
   if (id === 'clusters')   loadClusters();
   if (id === 'dashboard')  loadSummary();
+  if (id === 'evaluation') loadEvaluation();
 }
 
 document.querySelectorAll('.nav-links a').forEach(a => {
@@ -472,6 +473,275 @@ window.navigate = function(id) {
   _origNavigate(id);
   if (id === 'analytics') loadOutlierStats();
 };
+
+// ── Evaluation Charts ────────────────────────────────────────
+let evaluationLoaded = false;
+let avpChart = null;
+let resChart = null;
+let residualData = null;
+let cvData = null;
+
+const MODEL_COLORS = {
+  ensemble:   '#fbbf24',
+  bagging:    '#34d399',
+  svm:        '#22d3ee',
+  timeseries: '#a78bfa',
+};
+
+const MODEL_KEYS = {
+  ensemble:   { pred: 'ensemblePred',    res: 'ensembleResidual'   },
+  bagging:    { pred: 'baggingPred',     res: 'baggingResidual'    },
+  svm:        { pred: 'svmPred',         res: 'svmResidual'        },
+  timeseries: { pred: 'timeSeriesPred',  res: 'timeSeriesResidual' },
+};
+
+const MODEL_LABELS = {
+  ensemble:   'Ensemble',
+  bagging:    'Bagging (RF)',
+  svm:        'SVM (SVR)',
+  timeseries: 'Time-Series (Ridge)',
+};
+
+async function loadEvaluation() {
+  if (evaluationLoaded) return;
+  evaluationLoaded = true;
+
+  try {
+    const [resRes, cvRes] = await Promise.all([
+      fetch('/api/residuals'),
+      fetch('/api/cv-results'),
+    ]);
+    residualData = await resRes.json();
+    cvData       = await cvRes.json();
+
+    // Wire up tab clicks
+    document.querySelectorAll('#avp-tabs .eval-tab').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('#avp-tabs .eval-tab').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        renderAvpChart(btn.dataset.model);
+      });
+    });
+    document.querySelectorAll('#res-tabs .eval-tab').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('#res-tabs .eval-tab').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        renderResChart(btn.dataset.model);
+      });
+    });
+
+    renderAvpChart('ensemble');
+    renderResChart('ensemble');
+    renderCvResults();
+
+  } catch(e) {
+    console.warn('Evaluation load failed:', e);
+  }
+}
+
+// ── Actual vs Predicted scatter ───────────────────────────────
+function renderAvpChart(modelKey) {
+  const pts    = residualData.points;
+  const color  = MODEL_COLORS[modelKey];
+  const keys   = MODEL_KEYS[modelKey];
+  const actual = pts.map(p => p.actual);
+  const preds  = pts.map(p => p[keys.pred]);
+
+  // Compute stats
+  const n      = actual.length;
+  const mae    = actual.reduce((s,a,i) => s + Math.abs(preds[i]-a), 0) / n;
+  const mse    = actual.reduce((s,a,i) => s + (preds[i]-a)**2,       0) / n;
+  const rmse   = Math.sqrt(mse);
+  const mean_a = actual.reduce((s,v) => s+v,0)/n;
+  const ss_tot = actual.reduce((s,a) => s+(a-mean_a)**2, 0);
+  const ss_res = actual.reduce((s,a,i) => s+(preds[i]-a)**2, 0);
+  const r2     = 1 - ss_res/ss_tot;
+
+  // Perfect-fit line
+  const allVals = [...actual, ...preds];
+  const lo = Math.min(...allVals) - 1;
+  const hi = Math.max(...allVals) + 1;
+
+  const scatterData = pts.map((p,i) => ({ x: actual[i], y: preds[i] }));
+
+  const config = {
+    type: 'scatter',
+    data: {
+      datasets: [
+        {
+          label: MODEL_LABELS[modelKey],
+          data:  scatterData,
+          backgroundColor: color + '55',
+          borderColor:     color,
+          borderWidth:     0.5,
+          pointRadius:     3,
+          order: 1,
+        },
+        {
+          label: 'Perfect fit (y = x)',
+          data: [{ x: lo, y: lo }, { x: hi, y: hi }],
+          type: 'line',
+          borderColor: 'rgba(255,255,255,0.6)',
+          borderWidth: 1.5,
+          borderDash: [6, 4],
+          pointRadius: 0,
+          fill: false,
+          order: 0,
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      animation: { duration: 400 },
+      scales: {
+        x: {
+          ...scaleOpts(),
+          title: { display: true, text: 'Actual Power (kW)', color: '#64748b', font:{size:11} },
+          min: lo, max: hi,
+        },
+        y: {
+          ...scaleOpts(),
+          title: { display: true, text: 'Predicted Power (kW)', color: '#64748b', font:{size:11} },
+          min: lo, max: hi,
+        },
+      },
+      plugins: {
+        legend: { labels: { color: '#94a3b8', font:{size:10}, boxWidth:10, padding:12 } },
+        tooltip: {
+          backgroundColor: 'rgba(15,22,36,0.95)',
+          borderColor: 'rgba(255,255,255,0.08)',
+          borderWidth: 1,
+          titleColor: '#e2e8f0',
+          bodyColor: '#94a3b8',
+          callbacks: {
+            label: ctx => `Actual: ${ctx.raw.x.toFixed(2)} kW  Predicted: ${ctx.raw.y.toFixed(2)} kW`,
+          },
+        },
+      },
+    },
+  };
+
+  if (avpChart) { avpChart.destroy(); avpChart = null; }
+  avpChart = new Chart(document.getElementById('avp-chart'), config);
+
+  document.getElementById('avp-stats').innerHTML =
+    `<div class="eval-stat">R² <strong>${r2.toFixed(4)}</strong></div>` +
+    `<div class="eval-stat">MAE <strong>${mae.toFixed(3)} kW</strong></div>` +
+    `<div class="eval-stat">RMSE <strong>${rmse.toFixed(3)} kW</strong></div>` +
+    `<div class="eval-stat">n = <strong>${n}</strong> test samples</div>`;
+}
+
+// ── Residual Histogram ────────────────────────────────────────
+function renderResChart(modelKey) {
+  const pts    = residualData.points;
+  const color  = MODEL_COLORS[modelKey];
+  const resKey = MODEL_KEYS[modelKey].res;
+  const resVals = pts.map(p => p[resKey]);
+
+  const mean = resVals.reduce((s,v)=>s+v,0)/resVals.length;
+  const std  = Math.sqrt(resVals.reduce((s,v)=>s+(v-mean)**2,0)/resVals.length);
+
+  // Build histogram bins
+  const min = Math.min(...resVals), max = Math.max(...resVals);
+  const nBins = 35;
+  const step  = (max - min) / nBins;
+  const bins  = Array.from({length: nBins}, (_,i) => min + i * step);
+  const counts = new Array(nBins).fill(0);
+  resVals.forEach(v => {
+    const idx = Math.min(Math.floor((v - min) / step), nBins - 1);
+    counts[idx]++;
+  });
+  const density = counts.map(c => c / (resVals.length * step));
+  const labels  = bins.map(b => b.toFixed(2));
+
+  const config = {
+    type: 'bar',
+    data: {
+      labels,
+      datasets: [{
+        label: `Residuals — ${MODEL_LABELS[modelKey]}`,
+        data: density,
+        backgroundColor: color + '66',
+        borderColor:     color,
+        borderWidth:     1,
+        borderRadius:    2,
+      }],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      animation: { duration: 400 },
+      scales: {
+        x: {
+          ...scaleOpts(),
+          title: { display: true, text: 'Residual (Predicted − Actual)  [kW]', color:'#64748b', font:{size:11} },
+          ticks: { ...scaleOpts().ticks, maxTicksLimit: 10 },
+        },
+        y: {
+          ...scaleOpts(),
+          title: { display: true, text: 'Density', color:'#64748b', font:{size:11} },
+        },
+      },
+      plugins: {
+        legend: { labels: { color:'#94a3b8', font:{size:10} } },
+        tooltip: {
+          backgroundColor: 'rgba(15,22,36,0.95)',
+          borderColor: 'rgba(255,255,255,0.08)',
+          borderWidth: 1,
+          titleColor: '#e2e8f0',
+          bodyColor: '#94a3b8',
+          callbacks: {
+            title: ctx => `Residual ≈ ${ctx[0].label} kW`,
+            label: ctx => `Density: ${ctx.raw.toFixed(4)}`,
+          },
+        },
+        annotation: undefined,
+      },
+    },
+  };
+
+  if (resChart) { resChart.destroy(); resChart = null; }
+  resChart = new Chart(document.getElementById('res-chart'), config);
+
+  const skewSign = mean > 0.05 ? '⬆ slight over-prediction' :
+                   mean < -0.05 ? '⬇ slight under-prediction' : '✓ unbiased';
+  document.getElementById('res-stats').innerHTML =
+    `<div class="eval-stat">Mean residual <strong>${mean.toFixed(4)} kW</strong> — ${skewSign}</div>` +
+    `<div class="eval-stat">Std dev <strong>${std.toFixed(4)} kW</strong> (≈ RMSE)</div>` +
+    `<div class="eval-stat">n = <strong>${resVals.length}</strong> test samples</div>`;
+}
+
+// ── Cross-Validation Results ──────────────────────────────────
+function renderCvResults() {
+  const container = document.getElementById('cv-grid');
+  if (!cvData) return;
+
+  const entries = [
+    { key: 'svm',        label: 'SVM (SVR)',             color: MODEL_COLORS.svm },
+    { key: 'bagging',    label: 'Bagging (RF)',           color: MODEL_COLORS.bagging },
+    { key: 'timeseries', label: 'Time-Series (Ridge)',    color: MODEL_COLORS.timeseries },
+  ];
+
+  container.innerHTML = entries.map(({ key, label, color }) => {
+    const d = cvData[key];
+    if (!d) return '';
+    const foldChips = d.folds.map((v,i) =>
+      `<span class="cv-fold-chip">Fold ${i+1}: ${v}</span>`
+    ).join('');
+    const r2pct = Math.round(d.mean * 100);
+    return `
+      <div class="cv-model-row">
+        <div class="cv-model-name" style="color:${color}">${label}</div>
+        <div class="cv-folds">
+          ${foldChips}
+          <span class="cv-mean-chip" style="background:${color}22;color:${color};border:1px solid ${color}55">
+            Mean R² ${d.mean} ± ${d.std}
+          </span>
+        </div>
+      </div>`;
+  }).join('');
+}
 
 // ── Init ──────────────────────────────────────────────────────
 checkModelHealth();

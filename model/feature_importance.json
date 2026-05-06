@@ -2,23 +2,31 @@
   "items": [
     {
       "feature": "Solar Irradiance",
-      "importance": 0.3063
+      "importance": 0.5349
     },
     {
-      "feature": "Normalised Irradiance",
-      "importance": 0.3063
+      "feature": "Effective Irradiance",
+      "importance": 0.2145
     },
     {
-      "feature": "Irradiance\u00d7Humidity",
-      "importance": 0.14
+      "feature": "Irradiance x Temperature",
+      "importance": 0.137
+    },
+    {
+      "feature": "Day of Year",
+      "importance": 0.0444
+    },
+    {
+      "feature": "Humidity",
+      "importance": 0.0251
+    },
+    {
+      "feature": "Temperature",
+      "importance": 0.0205
     },
     {
       "feature": "Hour of Day",
-      "importance": 0.0886
-    },
-    {
-      "feature": "Month",
-      "importance": 0.0459
+      "importance": 0.0161
     }
   ]
 }
